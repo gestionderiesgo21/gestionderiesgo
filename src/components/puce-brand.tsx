@@ -14,7 +14,7 @@ export function PuceLogo({
   height?: number;
 }) {
   return (
-    <span className={cn("inline-flex items-center rounded-md bg-white px-2.5 py-1.5", className)}>
+    <span className={cn("inline-flex items-center rounded-md bg-white px-4 py-2", className)}>
       <Image
         src="/puce.png"
         alt="PUCE"
