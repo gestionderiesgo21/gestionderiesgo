@@ -2,7 +2,7 @@ import { NextResponse, type NextRequest } from "next/server";
 import { jwtVerify } from "jose";
 
 const COOKIE = "girD_session";
-const PUBLIC = ["/login", "/registro"];
+const PUBLIC = ["/", "/login", "/registro"];
 
 function secretKey(): Uint8Array {
   return new TextEncoder().encode(process.env.AUTH_SECRET || "");
