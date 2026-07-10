@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ShieldCheck } from "lucide-react";
 import { Logo, Wordmark } from "@/components/brand";
 import { GobEcuador } from "@/components/gob-brand";
@@ -22,8 +23,12 @@ export function AuthShell({
             backgroundSize: "22px 22px",
           }}
         />
-        <div className="relative">
+        <div className="relative flex flex-wrap items-center gap-3">
           <GobEcuador />
+          <span className="h-8 w-px bg-white/20" />
+          <span className="inline-flex items-center rounded-md bg-white px-2.5 py-1.5">
+            <Image src="/puce.svg" alt="PUCE" width={92} height={30} priority />
+          </span>
         </div>
         <div className="relative space-y-5">
           <Logo className="h-12 w-12" />
