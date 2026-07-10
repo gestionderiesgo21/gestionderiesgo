@@ -1,0 +1,23 @@
+# Configuración de despliegue en Render (https://render.com).
+# La app corre como servicio Node (next build + next start), sin adaptadores.
+# Los secretos NO van aquí (sync: false) — se pegan en el dashboard de Render.
+services:
+  - type: web
+    name: gird-plataforma
+    runtime: node
+    plan: free
+    region: virginia # cerca de Neon (AWS us-east-1) para minimizar latencia app<->DB
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /login
+    envVars:
+      - key: NODE_VERSION
+        value: "20.17.0"
+      - key: DATABASE_URL
+        sync: false
+      - key: AUTH_SECRET
+        sync: false
+      - key: ADMIN_EMAIL
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
