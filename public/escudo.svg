@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 56" role="img" aria-label="Escudo (marcador de posición)">
+  <!-- PLACEHOLDER: reemplazar por el escudo oficial del Ecuador (public/escudo.svg) -->
+  <path d="M24 2 46 9v22c0 12-9.8 19.8-22 25C9.8 50.8 2 43 2 31V9L24 2Z" fill="#fff" stroke="#c9d3df" stroke-width="1.5"/>
+  <path d="M24 6 42 11.6v18.9c0 9.8-7.8 16.4-18 20.9-10.2-4.5-18-11.1-18-20.9V11.6L24 6Z" fill="#0b2e4f"/>
+  <rect x="10" y="16" width="28" height="7" rx="1" fill="#ffd100"/>
+  <rect x="10" y="24" width="28" height="6" rx="1" fill="#0a4595"/>
+  <rect x="10" y="31" width="28" height="6" rx="1" fill="#d52b1e"/>
+</svg>

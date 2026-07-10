@@ -1,0 +1,157 @@
+// Schema Prisma - Plataforma de Autoevaluación GIRD
+// Base de datos: PostgreSQL (Neon en producción/desarrollo)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ----------------------------- Usuarios / acceso -----------------------------
+
+enum Rol {
+  TECNICO_MUNICIPAL
+  CONSULTOR
+  INVESTIGADOR
+  ADMIN
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  nombre       String
+  rol          Rol      @default(TECNICO_MUNICIPAL)
+  activo       Boolean  @default(true)
+  intentosFallidos Int      @default(0)
+  bloqueadoHasta   DateTime?
+  cantonId     String?
+  canton       Canton?  @relation(fields: [cantonId], references: [id])
+  evaluaciones Evaluacion[]
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+// ------------------------------- Catálogos -----------------------------------
+
+model Provincia {
+  id       String   @id @default(cuid())
+  nombre   String   @unique
+  cantones Canton[]
+}
+
+enum TipoCanton {
+  MICRO
+  PEQUENO
+  MEDIANO
+  GRANDE
+  METROPOLITANO
+}
+
+model Canton {
+  id           String       @id @default(cuid())
+  nombre       String
+  provinciaId  String
+  provincia    Provincia    @relation(fields: [provinciaId], references: [id])
+  tipo         TipoCanton?
+  usuarios     User[]
+  evaluaciones Evaluacion[]
+
+  @@unique([nombre, provinciaId])
+}
+
+model Componente {
+  id        String     @id @default(cuid())
+  codigo    String     @unique // I, II, ... IX
+  nombre    String
+  orden     Int
+  peso      Float // exponente para la media geométrica ponderada
+  variables Variable[]
+}
+
+model Variable {
+  id            String     @id @default(cuid())
+  codigo        String     @unique // V1..V55
+  componenteId  String
+  componente    Componente @relation(fields: [componenteId], references: [id])
+  nombre        String
+  orden         Int
+  refLogird     String?
+  refLootugs    String?
+  refCootad     String?
+  preguntas     Pregunta[]
+}
+
+model Pregunta {
+  id          String      @id @default(cuid())
+  codigo      String      @unique // P1.1 ...
+  variableId  String
+  variable    Variable    @relation(fields: [variableId], references: [id])
+  texto       String
+  orden       Int
+  respuestas  Respuesta[]
+}
+
+model Evento {
+  id            String            @id @default(cuid())
+  nombre        String            @unique
+  subcategoria  String
+  categoria     String
+  evaluaciones  EventoEvaluacion[]
+}
+
+// ------------------------------ Transaccional --------------------------------
+
+enum EstadoEvaluacion {
+  BORRADOR
+  ENVIADA
+}
+
+model Evaluacion {
+  id              String             @id @default(cuid())
+  cantonId        String
+  canton          Canton             @relation(fields: [cantonId], references: [id])
+  usuarioId       String
+  usuario         User               @relation(fields: [usuarioId], references: [id])
+  periodo         Int // año de la autoevaluación
+  estado          EstadoEvaluacion   @default(BORRADOR)
+  // resultados cacheados (se recalculan al guardar/enviar)
+  idmGird         Float?
+  cti             Float?
+  idmGirdAjustado Float?
+  respuestas      Respuesta[]
+  eventos         EventoEvaluacion[]
+  createdAt       DateTime           @default(now())
+  updatedAt       DateTime           @updatedAt
+
+  @@unique([cantonId, periodo])
+}
+
+model Respuesta {
+  id           String     @id @default(cuid())
+  evaluacionId String
+  evaluacion   Evaluacion @relation(fields: [evaluacionId], references: [id], onDelete: Cascade)
+  preguntaId   String
+  pregunta     Pregunta   @relation(fields: [preguntaId], references: [id])
+  valor        Int // escala de madurez 1, 2, 3
+
+  @@unique([evaluacionId, preguntaId])
+}
+
+model EventoEvaluacion {
+  id             String     @id @default(cuid())
+  evaluacionId   String
+  evaluacion     Evaluacion @relation(fields: [evaluacionId], references: [id], onDelete: Cascade)
+  eventoId       String
+  evento         Evento     @relation(fields: [eventoId], references: [id])
+  cantidad       Float      @default(0)
+  amenaza        Float      @default(0)
+  vulnerabilidad Float      @default(0)
+  exposicion     Float      @default(0)
+  mitigacion     Float      @default(1)
+
+  @@unique([evaluacionId, eventoId])
+}

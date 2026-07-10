@@ -1,26 +1,153 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+/* Modo oscuro deshabilitado a propósito: la plataforma es solo modo claro.
+   Mantenemos el custom-variant basado en clase (nunca añadimos .dark) para que
+   `dark:` no se active por preferencia del sistema operativo. */
+@custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --radius: 0.5rem;
+
+  /* Base institucional — claro, limpio, tipo portal de gobierno */
+  --background: oklch(0.985 0.002 90);
+  --foreground: oklch(0.2 0.02 255);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.2 0.02 255);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.2 0.02 255);
+
+  /* Primario: naranja institucional SGR (~#E8531B) */
+  --primary: oklch(0.63 0.19 41);
+  --primary-foreground: oklch(0.99 0 0);
+
+  /* Secundario/acento neutros */
+  --secondary: oklch(0.965 0.003 90);
+  --secondary-foreground: oklch(0.25 0.02 255);
+  --muted: oklch(0.965 0.003 90);
+  --muted-foreground: oklch(0.52 0.02 255);
+  --accent: oklch(0.955 0.02 55);
+  --accent-foreground: oklch(0.3 0.05 41);
+
+  --destructive: oklch(0.577 0.245 27.325);
+
+  --border: oklch(0.9 0.005 255);
+  --input: oklch(0.9 0.005 255);
+  --ring: oklch(0.63 0.19 41);
+
+  /* Marca — azul marino para header/footer y contraste serio */
+  --brand-navy: oklch(0.31 0.06 252);
+  --brand-navy-foreground: oklch(0.98 0.005 90);
+  --brand-orange: oklch(0.63 0.19 41);
+
+  /* Paleta categórica para gráficos (Recharts) — accesible en claro */
+  --chart-1: oklch(0.63 0.19 41);   /* naranja */
+  --chart-2: oklch(0.45 0.09 252);  /* azul marino */
+  --chart-3: oklch(0.68 0.11 195);  /* teal */
+  --chart-4: oklch(0.78 0.15 75);   /* ámbar */
+  --chart-5: oklch(0.62 0.14 150);  /* verde */
+
+  --sidebar: oklch(0.99 0.003 90);
+  --sidebar-foreground: oklch(0.2 0.02 255);
+  --sidebar-primary: oklch(0.63 0.19 41);
+  --sidebar-primary-foreground: oklch(0.99 0 0);
+  --sidebar-accent: oklch(0.955 0.02 55);
+  --sidebar-accent-foreground: oklch(0.3 0.05 41);
+  --sidebar-border: oklch(0.9 0.005 255);
+  --sidebar-ring: oklch(0.63 0.19 41);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-brand-navy: var(--brand-navy);
+  --color-brand-navy-foreground: var(--brand-navy-foreground);
+  --color-brand-orange: var(--brand-orange);
+
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Utilidades legacy: se mantienen para las páginas aún no migradas a shadcn.
+   Recoloreadas al tema institucional para consistencia durante la transición. */
+@layer components {
+  .btn,
+  .btn-primary,
+  .btn-secondary,
+  .btn-danger {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-4 py-2 text-sm font-medium transition-colors disabled:opacity-50 disabled:pointer-events-none;
+  }
+  .btn-primary {
+    @apply bg-primary text-primary-foreground hover:bg-primary/90;
+  }
+  .btn-secondary {
+    @apply border border-input bg-card text-foreground hover:bg-accent;
+  }
+  .btn-danger {
+    @apply bg-destructive text-white hover:bg-destructive/90;
+  }
+  .card {
+    @apply rounded-xl border bg-card shadow-sm;
+  }
+  .input {
+    @apply w-full rounded-md border border-input bg-card px-3 py-2 text-sm outline-none focus:border-primary focus:ring-2 focus:ring-primary/20;
+  }
+  .label {
+    @apply mb-1 block text-sm font-medium text-foreground;
+  }
+  .badge {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+  }
 }

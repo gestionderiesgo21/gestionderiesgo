@@ -1,0 +1,3862 @@
+{
+ "componentes": [
+  {
+   "codigo": "I",
+   "nombre": "I. GOBERNANZA INSTITUCIONAL",
+   "orden": 1,
+   "peso": 0.12464589235127481
+  },
+  {
+   "codigo": "II",
+   "nombre": "II. PLANIFICACIÓN TERRITORIAL",
+   "orden": 2,
+   "peso": 0.1161473087818697
+  },
+  {
+   "codigo": "III",
+   "nombre": "III. PREVENCIÓN DEL RIESGO",
+   "orden": 3,
+   "peso": 0.113314447592068
+  },
+  {
+   "codigo": "IV",
+   "nombre": "IV. MITIGACIÓN DEL RIESGO",
+   "orden": 4,
+   "peso": 0.1048158640226629
+  },
+  {
+   "codigo": "V",
+   "nombre": "V. PREPARACIÓN Y FORTALECIMIENTO DE CAPACIDADES",
+   "orden": 5,
+   "peso": 0.1104815864022663
+  },
+  {
+   "codigo": "VI",
+   "nombre": "VI. RESPUESTA ANTE EMERGENCIAS",
+   "orden": 6,
+   "peso": 0.1104815864022663
+  },
+  {
+   "codigo": "VII",
+   "nombre": "VII. RECUPERACIÓN Y RECONSTRUCCIÓN",
+   "orden": 7,
+   "peso": 0.10198300283286121
+  },
+  {
+   "codigo": "VIII",
+   "nombre": "VIII. FINANCIAMIENTO Y SOSTENIBILIDAD",
+   "orden": 8,
+   "peso": 0.10764872521246459
+  },
+  {
+   "codigo": "IX",
+   "nombre": "IX. PARTICIPACIÓN SOCIAL Y COORDINACIÓN",
+   "orden": 9,
+   "peso": 0.1104815864022663
+  }
+ ],
+ "variables": [
+  {
+   "codigo": "V1",
+   "componenteCodigo": "I",
+   "nombre": "Unidad Municipal de Gestión de Riesgos creada",
+   "orden": 1,
+   "refLogird": "Art.20",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V2",
+   "componenteCodigo": "I",
+   "nombre": "Responsable técnico con perfil especializado",
+   "orden": 2,
+   "refLogird": "Art.20",
+   "refLootugs": "—",
+   "refCootad": "—"
+  },
+  {
+   "codigo": "V3",
+   "componenteCodigo": "I",
+   "nombre": "Número de técnicos de la UGR",
+   "orden": 3,
+   "refLogird": "Art.20",
+   "refLootugs": "—",
+   "refCootad": "—"
+  },
+  {
+   "codigo": "V4",
+   "componenteCodigo": "I",
+   "nombre": "Comité Cantonal de Gestión del Riesgo conformado",
+   "orden": 4,
+   "refLogird": "Art.22",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V5",
+   "componenteCodigo": "I",
+   "nombre": "COE cantonal operativo",
+   "orden": 5,
+   "refLogird": "Art.12.12",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V6",
+   "componenteCodigo": "I",
+   "nombre": "Sesiones anuales del COE",
+   "orden": 6,
+   "refLogird": "Art.12",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V7",
+   "componenteCodigo": "II",
+   "nombre": "PDOT incorpora gestión de riesgos",
+   "orden": 7,
+   "refLogird": "Art.9.6",
+   "refLootugs": "Art.11.3",
+   "refCootad": "Art.295"
+  },
+  {
+   "codigo": "V8",
+   "componenteCodigo": "II",
+   "nombre": "PUGS incorpora gestión de riesgos",
+   "orden": 8,
+   "refLogird": "Art.10",
+   "refLootugs": "Art.18.3",
+   "refCootad": "Art.466"
+  },
+  {
+   "codigo": "V9",
+   "componenteCodigo": "II",
+   "nombre": "Escenarios prospectivos desarrollados",
+   "orden": 9,
+   "refLogird": "Art.9",
+   "refLootugs": "Art.11.3",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V10",
+   "componenteCodigo": "II",
+   "nombre": "Mapa de amenazas actualizado",
+   "orden": 10,
+   "refLogird": "Art.9.3",
+   "refLootugs": "Art.11.3",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V11",
+   "componenteCodigo": "II",
+   "nombre": "Mapa de riesgos actualizado",
+   "orden": 11,
+   "refLogird": "Art.9.3",
+   "refLootugs": "Art.11.3",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V12",
+   "componenteCodigo": "II",
+   "nombre": "Catastro de infraestructura crítica",
+   "orden": 12,
+   "refLogird": "Art.9.3",
+   "refLootugs": "—",
+   "refCootad": "Art.55"
+  },
+  {
+   "codigo": "V13",
+   "componenteCodigo": "II",
+   "nombre": "Monitoreo permanente de amenazas",
+   "orden": 13,
+   "refLogird": "Art.9.4",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V14",
+   "componenteCodigo": "II",
+   "nombre": "Protocolos de intercambio de información",
+   "orden": 14,
+   "refLogird": "Art.9.5",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V15",
+   "componenteCodigo": "II",
+   "nombre": "Programas comunitarios de capacitación",
+   "orden": 15,
+   "refLogird": "Art.9.7",
+   "refLootugs": "—",
+   "refCootad": "Art.54"
+  },
+  {
+   "codigo": "V16",
+   "componenteCodigo": "II",
+   "nombre": "Presupuesto destinado al conocimiento del riesgo",
+   "orden": 16,
+   "refLogird": "Art.9.8",
+   "refLootugs": "—",
+   "refCootad": "Art.249"
+  },
+  {
+   "codigo": "V17",
+   "componenteCodigo": "III",
+   "nombre": "Ordenanza municipal de gestión de riesgos",
+   "orden": 17,
+   "refLogird": "Art.10.1",
+   "refLootugs": "—",
+   "refCootad": "Art.57"
+  },
+  {
+   "codigo": "V18",
+   "componenteCodigo": "III",
+   "nombre": "Normativa de control de construcciones",
+   "orden": 18,
+   "refLogird": "Art.10.3",
+   "refLootugs": "Art.18.3",
+   "refCootad": "Art.54 literal o"
+  },
+  {
+   "codigo": "V19",
+   "componenteCodigo": "III",
+   "nombre": "Sistema de alerta temprana implementado",
+   "orden": 19,
+   "refLogird": "Art.10.3",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V20",
+   "componenteCodigo": "III",
+   "nombre": "Sistema de información de riesgos",
+   "orden": 20,
+   "refLogird": "Art.10.3",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V21",
+   "componenteCodigo": "III",
+   "nombre": "Campañas de prevención ejecutadas",
+   "orden": 21,
+   "refLogird": "Art.10.4",
+   "refLootugs": "—",
+   "refCootad": "Art.54"
+  },
+  {
+   "codigo": "V22",
+   "componenteCodigo": "III",
+   "nombre": "Programas escolares de prevención",
+   "orden": 22,
+   "refLogird": "Art.10.4",
+   "refLootugs": "—",
+   "refCootad": "Art.54"
+  },
+  {
+   "codigo": "V23",
+   "componenteCodigo": "IV",
+   "nombre": "Obras estructurales de mitigación",
+   "orden": 23,
+   "refLogird": "Art.11.3",
+   "refLootugs": "Art.18.3",
+   "refCootad": "Art.55"
+  },
+  {
+   "codigo": "V24",
+   "componenteCodigo": "IV",
+   "nombre": "Protección de riberas",
+   "orden": 24,
+   "refLogird": "Art.11.3",
+   "refLootugs": "—",
+   "refCootad": "Art.55"
+  },
+  {
+   "codigo": "V25",
+   "componenteCodigo": "IV",
+   "nombre": "Estabilización de taludes",
+   "orden": 25,
+   "refLogird": "Art.11.3",
+   "refLootugs": "—",
+   "refCootad": "Art.55"
+  },
+  {
+   "codigo": "V26",
+   "componenteCodigo": "IV",
+   "nombre": "Reforestación protectora",
+   "orden": 26,
+   "refLogird": "Art.11.4",
+   "refLootugs": "Art.7",
+   "refCootad": "Art.136"
+  },
+  {
+   "codigo": "V27",
+   "componenteCodigo": "IV",
+   "nombre": "Programas de adaptación climática",
+   "orden": 27,
+   "refLogird": "Art.10.3",
+   "refLootugs": "Art.7",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V28",
+   "componenteCodigo": "V",
+   "nombre": "Plan de respuesta territorial vigente",
+   "orden": 28,
+   "refLogird": "Art.12.2",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V29",
+   "componenteCodigo": "V",
+   "nombre": "Escenarios de impacto desarrollados",
+   "orden": 29,
+   "refLogird": "Art.12.3",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V30",
+   "componenteCodigo": "V",
+   "nombre": "Simulacros realizados",
+   "orden": 30,
+   "refLogird": "Art.12.7",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V31",
+   "componenteCodigo": "V",
+   "nombre": "Participantes en simulacros",
+   "orden": 31,
+   "refLogird": "Art.12.7",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V32",
+   "componenteCodigo": "V",
+   "nombre": "Equipos USAR capacitados",
+   "orden": 32,
+   "refLogird": "Art.12.8",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V33",
+   "componenteCodigo": "V",
+   "nombre": "Inventario de recursos actualizado",
+   "orden": 33,
+   "refLogird": "Art.12.11",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V34",
+   "componenteCodigo": "V",
+   "nombre": "Inventario de maquinaria pesada",
+   "orden": 34,
+   "refLogird": "Art.12.11",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V35",
+   "componenteCodigo": "V",
+   "nombre": "Stock de asistencia humanitaria",
+   "orden": 35,
+   "refLogird": "Art.12.9",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V36",
+   "componenteCodigo": "V",
+   "nombre": "Alojamientos temporales identificados",
+   "orden": 36,
+   "refLogird": "Art.12.10",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V37",
+   "componenteCodigo": "V",
+   "nombre": "Capacidad de alojamiento temporal",
+   "orden": 37,
+   "refLogird": "Art.12.10",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V38",
+   "componenteCodigo": "VI",
+   "nombre": "Tiempo de activación del COE",
+   "orden": 38,
+   "refLogird": "Art.13",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V39",
+   "componenteCodigo": "VI",
+   "nombre": "Tiempo de movilización de recursos",
+   "orden": 39,
+   "refLogird": "Art.13",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V40",
+   "componenteCodigo": "VI",
+   "nombre": "Tiempo de entrega de ayuda humanitaria",
+   "orden": 40,
+   "refLogird": "Art.13",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V41",
+   "componenteCodigo": "VI",
+   "nombre": "Protocolos de respuesta aprobados",
+   "orden": 41,
+   "refLogird": "Art.13.5",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V42",
+   "componenteCodigo": "VI",
+   "nombre": "Evaluaciones postevento realizadas",
+   "orden": 42,
+   "refLogird": "Art.13.6",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V43",
+   "componenteCodigo": "VI",
+   "nombre": "Presupuesto ejecutado en respuesta",
+   "orden": 43,
+   "refLogird": "Art.13.7",
+   "refLootugs": "—",
+   "refCootad": "Art.249"
+  },
+  {
+   "codigo": "V44",
+   "componenteCodigo": "VII",
+   "nombre": "Evaluación de daños y pérdidas",
+   "orden": 44,
+   "refLogird": "Art.15.2",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V45",
+   "componenteCodigo": "VII",
+   "nombre": "Mecanismo financiero para recuperación",
+   "orden": 45,
+   "refLogird": "Art.15.3",
+   "refLootugs": "—",
+   "refCootad": "Art.249"
+  },
+  {
+   "codigo": "V46",
+   "componenteCodigo": "VII",
+   "nombre": "Plan de reconstrucción elaborado",
+   "orden": 46,
+   "refLogird": "Art.16.4",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V47",
+   "componenteCodigo": "VII",
+   "nombre": "Estrategias de «Reconstruir Mejor»",
+   "orden": 47,
+   "refLogird": "Art.16.3",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V48",
+   "componenteCodigo": "VII",
+   "nombre": "Continuidad de servicios básicos",
+   "orden": 48,
+   "refLogird": "Art.19.5",
+   "refLootugs": "—",
+   "refCootad": "Art.54"
+  },
+  {
+   "codigo": "V49",
+   "componenteCodigo": "VIII",
+   "nombre": "Transferencia del riesgo",
+   "orden": 49,
+   "refLogird": "Art.19.8",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V50",
+   "componenteCodigo": "VIII",
+   "nombre": "Rendición de cuentas anual",
+   "orden": 50,
+   "refLogird": "Art.19.9",
+   "refLootugs": "—",
+   "refCootad": "Art.266"
+  },
+  {
+   "codigo": "V51",
+   "componenteCodigo": "IX",
+   "nombre": "Registro de instrumentos ante ente rector",
+   "orden": 51,
+   "refLogird": "Art.19.10",
+   "refLootugs": "—",
+   "refCootad": "Art.140"
+  },
+  {
+   "codigo": "V52",
+   "componenteCodigo": "IX",
+   "nombre": "Participación ciudadana en GIRD",
+   "orden": 52,
+   "refLogird": "Art.4.10",
+   "refLootugs": "Art.7",
+   "refCootad": "Art.304"
+  },
+  {
+   "codigo": "V53",
+   "componenteCodigo": "IX",
+   "nombre": "Participación de universidades",
+   "orden": 53,
+   "refLogird": "Art.18.9",
+   "refLootugs": "Art.5",
+   "refCootad": "Art.144"
+  },
+  {
+   "codigo": "V54",
+   "componenteCodigo": "IX",
+   "nombre": "Participación de comunidades vulnerables",
+   "orden": 54,
+   "refLogird": "Art.4.8",
+   "refLootugs": "Art.7",
+   "refCootad": "Art.303"
+  },
+  {
+   "codigo": "V55",
+   "componenteCodigo": "VIII",
+   "nombre": "Financiamiento anual en GIRD",
+   "orden": 55,
+   "refLogird": "Art.19.7",
+   "refLootugs": "—",
+   "refCootad": "Art.249"
+  }
+ ],
+ "preguntas": [
+  {
+   "codigo": "P1.1",
+   "variableCodigo": "V1",
+   "texto": "El GADM cuenta con una Unidad de Gestión Integral del Riesgo creada mediante resolución administrativa vigente.",
+   "orden": 1
+  },
+  {
+   "codigo": "P1.2",
+   "variableCodigo": "V1",
+   "texto": "La Unidad de Gestión de Riesgos está incorporada en la estructura orgánica institucional.",
+   "orden": 2
+  },
+  {
+   "codigo": "P1.3",
+   "variableCodigo": "V1",
+   "texto": "La Unidad dispone de espacio físico exclusivo para el desarrollo de sus actividades.",
+   "orden": 3
+  },
+  {
+   "codigo": "P1.4",
+   "variableCodigo": "V1",
+   "texto": "La Unidad cuenta con equipamiento tecnológico suficiente para cumplir sus funciones.",
+   "orden": 4
+  },
+  {
+   "codigo": "P1.5",
+   "variableCodigo": "V1",
+   "texto": "La Unidad mantiene continuidad operativa independientemente de cambios de autoridades.",
+   "orden": 5
+  },
+  {
+   "codigo": "P2.1",
+   "variableCodigo": "V2",
+   "texto": "El responsable posee formación académica relacionada con gestión del riesgo.",
+   "orden": 6
+  },
+  {
+   "codigo": "P2.2",
+   "variableCodigo": "V2",
+   "texto": "El responsable posee experiencia profesional en reducción del riesgo de desastres.",
+   "orden": 7
+  },
+  {
+   "codigo": "P2.3",
+   "variableCodigo": "V2",
+   "texto": "El responsable participa en programas de capacitación continua.",
+   "orden": 8
+  },
+  {
+   "codigo": "P2.4",
+   "variableCodigo": "V2",
+   "texto": "El responsable conoce las competencias municipales establecidas en la LOGIRD.",
+   "orden": 9
+  },
+  {
+   "codigo": "P2.5",
+   "variableCodigo": "V2",
+   "texto": "El perfil profesional del responsable es adecuado para dirigir procesos de gestión del riesgo.",
+   "orden": 10
+  },
+  {
+   "codigo": "P3.1",
+   "variableCodigo": "V3",
+   "texto": "El número de técnicos asignados es suficiente para cubrir las competencias municipales.",
+   "orden": 11
+  },
+  {
+   "codigo": "P3.2",
+   "variableCodigo": "V3",
+   "texto": "El personal técnico permite atender simultáneamente procesos de prevención, mitigación, preparación y respuesta.",
+   "orden": 12
+  },
+  {
+   "codigo": "P3.3",
+   "variableCodigo": "V3",
+   "texto": "La Unidad cuenta con profesionales de diferentes disciplinas.",
+   "orden": 13
+  },
+  {
+   "codigo": "P3.4",
+   "variableCodigo": "V3",
+   "texto": "La carga laboral del personal técnico es adecuada.",
+   "orden": 14
+  },
+  {
+   "codigo": "P3.5",
+   "variableCodigo": "V3",
+   "texto": "Existen mecanismos para incorporar personal adicional durante emergencias.",
+   "orden": 15
+  },
+  {
+   "codigo": "P4.1",
+   "variableCodigo": "V4",
+   "texto": "El Comité Cantonal está legalmente conformado.",
+   "orden": 16
+  },
+  {
+   "codigo": "P4.2",
+   "variableCodigo": "V4",
+   "texto": "El Comité cuenta con reglamento interno.",
+   "orden": 17
+  },
+  {
+   "codigo": "P4.3",
+   "variableCodigo": "V4",
+   "texto": "Las instituciones integrantes participan activamente.",
+   "orden": 18
+  },
+  {
+   "codigo": "P4.4",
+   "variableCodigo": "V4",
+   "texto": "Se realiza seguimiento a los acuerdos adoptados.",
+   "orden": 19
+  },
+  {
+   "codigo": "P4.5",
+   "variableCodigo": "V4",
+   "texto": "El Comité coordina acciones interinstitucionales de forma efectiva.",
+   "orden": 20
+  },
+  {
+   "codigo": "P5.1",
+   "variableCodigo": "V5",
+   "texto": "El COE dispone de protocolos actualizados.",
+   "orden": 21
+  },
+  {
+   "codigo": "P5.2",
+   "variableCodigo": "V5",
+   "texto": "El COE posee instalaciones adecuadas.",
+   "orden": 22
+  },
+  {
+   "codigo": "P5.3",
+   "variableCodigo": "V5",
+   "texto": "Existen sistemas redundantes de comunicación.",
+   "orden": 23
+  },
+  {
+   "codigo": "P5.4",
+   "variableCodigo": "V5",
+   "texto": "El personal conoce sus funciones específicas.",
+   "orden": 24
+  },
+  {
+   "codigo": "P5.5",
+   "variableCodigo": "V5",
+   "texto": "El COE puede mantenerse operativo durante eventos prolongados.",
+   "orden": 25
+  },
+  {
+   "codigo": "P6.1",
+   "variableCodigo": "V6",
+   "texto": "El COE realiza reuniones periódicas.",
+   "orden": 26
+  },
+  {
+   "codigo": "P6.2",
+   "variableCodigo": "V6",
+   "texto": "Las reuniones son convocadas oportunamente.",
+   "orden": 27
+  },
+  {
+   "codigo": "P6.3",
+   "variableCodigo": "V6",
+   "texto": "Se elaboran actas de cada sesión.",
+   "orden": 28
+  },
+  {
+   "codigo": "P6.4",
+   "variableCodigo": "V6",
+   "texto": "Las recomendaciones son implementadas.",
+   "orden": 29
+  },
+  {
+   "codigo": "P6.5",
+   "variableCodigo": "V6",
+   "texto": "Las sesiones contribuyen al mejoramiento institucional.",
+   "orden": 30
+  },
+  {
+   "codigo": "P7.1",
+   "variableCodigo": "V7",
+   "texto": "El PDOT incorpora análisis de amenazas.",
+   "orden": 31
+  },
+  {
+   "codigo": "P7.2",
+   "variableCodigo": "V7",
+   "texto": "El PDOT incorpora análisis de vulnerabilidad.",
+   "orden": 32
+  },
+  {
+   "codigo": "P7.3",
+   "variableCodigo": "V7",
+   "texto": "El PDOT identifica zonas de riesgo.",
+   "orden": 33
+  },
+  {
+   "codigo": "P7.4",
+   "variableCodigo": "V7",
+   "texto": "El PDOT propone medidas de reducción del riesgo.",
+   "orden": 34
+  },
+  {
+   "codigo": "P7.5",
+   "variableCodigo": "V7",
+   "texto": "El PDOT se actualiza periódicamente.",
+   "orden": 35
+  },
+  {
+   "codigo": "P8.1",
+   "variableCodigo": "V8",
+   "texto": "El PUGS restringe usos del suelo en áreas peligrosas.",
+   "orden": 36
+  },
+  {
+   "codigo": "P8.2",
+   "variableCodigo": "V8",
+   "texto": "El PUGS considera escenarios de inundación.",
+   "orden": 37
+  },
+  {
+   "codigo": "P8.3",
+   "variableCodigo": "V8",
+   "texto": "El PUGS regula asentamientos humanos en zonas expuestas.",
+   "orden": 38
+  },
+  {
+   "codigo": "P8.4",
+   "variableCodigo": "V8",
+   "texto": "El PUGS incorpora criterios de adaptación climática.",
+   "orden": 39
+  },
+  {
+   "codigo": "P8.5",
+   "variableCodigo": "V8",
+   "texto": "El PUGS se actualiza considerando nueva información de riesgo.",
+   "orden": 40
+  },
+  {
+   "codigo": "P9.1",
+   "variableCodigo": "V9",
+   "texto": "Se han elaborado escenarios de riesgo futuros.",
+   "orden": 41
+  },
+  {
+   "codigo": "P9.2",
+   "variableCodigo": "V9",
+   "texto": "Los escenarios consideran crecimiento urbano.",
+   "orden": 42
+  },
+  {
+   "codigo": "P9.3",
+   "variableCodigo": "V9",
+   "texto": "Se incluyen efectos del cambio climático.",
+   "orden": 43
+  },
+  {
+   "codigo": "P9.4",
+   "variableCodigo": "V9",
+   "texto": "Los escenarios sirven para priorizar inversiones.",
+   "orden": 44
+  },
+  {
+   "codigo": "P9.5",
+   "variableCodigo": "V9",
+   "texto": "Los escenarios son difundidos entre actores locales.",
+   "orden": 45
+  },
+  {
+   "codigo": "P10.1",
+   "variableCodigo": "V10",
+   "texto": "Existen mapas de inundación.",
+   "orden": 46
+  },
+  {
+   "codigo": "P10.2",
+   "variableCodigo": "V10",
+   "texto": "Existen mapas de movimientos en masa.",
+   "orden": 47
+  },
+  {
+   "codigo": "P10.3",
+   "variableCodigo": "V10",
+   "texto": "Existen mapas sísmicos.",
+   "orden": 48
+  },
+  {
+   "codigo": "P10.4",
+   "variableCodigo": "V10",
+   "texto": "Los mapas poseen escalas adecuadas.",
+   "orden": 49
+  },
+  {
+   "codigo": "P10.5",
+   "variableCodigo": "V10",
+   "texto": "Los mapas son actualizados periódicamente.",
+   "orden": 50
+  },
+  {
+   "codigo": "P11.1",
+   "variableCodigo": "V11",
+   "texto": "El municipio dispone de mapas integrales de riesgo.",
+   "orden": 51
+  },
+  {
+   "codigo": "P11.2",
+   "variableCodigo": "V11",
+   "texto": "Los mapas identifican población expuesta.",
+   "orden": 52
+  },
+  {
+   "codigo": "P11.3",
+   "variableCodigo": "V11",
+   "texto": "Los mapas incluyen infraestructura crítica.",
+   "orden": 53
+  },
+  {
+   "codigo": "P11.4",
+   "variableCodigo": "V11",
+   "texto": "Los mapas son utilizados para planificación.",
+   "orden": 54
+  },
+  {
+   "codigo": "P11.5",
+   "variableCodigo": "V11",
+   "texto": "La información geográfica es accesible a las instituciones.",
+   "orden": 55
+  },
+  {
+   "codigo": "P12.1",
+   "variableCodigo": "V12",
+   "texto": "Existe inventario de hospitales.",
+   "orden": 56
+  },
+  {
+   "codigo": "P12.2",
+   "variableCodigo": "V12",
+   "texto": "Existe inventario de escuelas.",
+   "orden": 57
+  },
+  {
+   "codigo": "P12.3",
+   "variableCodigo": "V12",
+   "texto": "Existe inventario de sistemas de agua potable.",
+   "orden": 58
+  },
+  {
+   "codigo": "P12.4",
+   "variableCodigo": "V12",
+   "texto": "Existe inventario de vías estratégicas.",
+   "orden": 59
+  },
+  {
+   "codigo": "P12.5",
+   "variableCodigo": "V12",
+   "texto": "El inventario se actualiza regularmente.",
+   "orden": 60
+  },
+  {
+   "codigo": "P13.1",
+   "variableCodigo": "V13",
+   "texto": "Se monitorean precipitaciones extremas.",
+   "orden": 61
+  },
+  {
+   "codigo": "P13.2",
+   "variableCodigo": "V13",
+   "texto": "Se monitorean deslizamientos.",
+   "orden": 62
+  },
+  {
+   "codigo": "P13.3",
+   "variableCodigo": "V13",
+   "texto": "Se monitorean caudales de ríos.",
+   "orden": 63
+  },
+  {
+   "codigo": "P13.4",
+   "variableCodigo": "V13",
+   "texto": "Existen mecanismos de alerta por actividad volcánica.",
+   "orden": 64
+  },
+  {
+   "codigo": "P13.5",
+   "variableCodigo": "V13",
+   "texto": "La información de monitoreo se utiliza para toma de decisiones.",
+   "orden": 65
+  },
+  {
+   "codigo": "P14.1",
+   "variableCodigo": "V14",
+   "texto": "Existen protocolos escritos.",
+   "orden": 66
+  },
+  {
+   "codigo": "P14.2",
+   "variableCodigo": "V14",
+   "texto": "Las instituciones conocen dichos protocolos.",
+   "orden": 67
+  },
+  {
+   "codigo": "P14.3",
+   "variableCodigo": "V14",
+   "texto": "La información se comparte oportunamente.",
+   "orden": 68
+  },
+  {
+   "codigo": "P14.4",
+   "variableCodigo": "V14",
+   "texto": "Existen responsables designados para intercambio de información.",
+   "orden": 69
+  },
+  {
+   "codigo": "P14.5",
+   "variableCodigo": "V14",
+   "texto": "Los protocolos se actualizan periódicamente.",
+   "orden": 70
+  },
+  {
+   "codigo": "P15.1",
+   "variableCodigo": "V15",
+   "texto": "Se realizan capacitaciones comunitarias.",
+   "orden": 71
+  },
+  {
+   "codigo": "P15.2",
+   "variableCodigo": "V15",
+   "texto": "Participan líderes barriales.",
+   "orden": 72
+  },
+  {
+   "codigo": "P15.3",
+   "variableCodigo": "V15",
+   "texto": "Se capacitan grupos prioritarios.",
+   "orden": 73
+  },
+  {
+   "codigo": "P15.4",
+   "variableCodigo": "V15",
+   "texto": "Se evalúa el aprendizaje de participantes.",
+   "orden": 74
+  },
+  {
+   "codigo": "P15.5",
+   "variableCodigo": "V15",
+   "texto": "Existe seguimiento posterior a las capacitaciones.",
+   "orden": 75
+  },
+  {
+   "codigo": "P16.1",
+   "variableCodigo": "V16",
+   "texto": "El municipio asigna presupuesto para estudios de amenaza.",
+   "orden": 76
+  },
+  {
+   "codigo": "P16.2",
+   "variableCodigo": "V16",
+   "texto": "Existen recursos para estudios de vulnerabilidad.",
+   "orden": 77
+  },
+  {
+   "codigo": "P16.3",
+   "variableCodigo": "V16",
+   "texto": "Se financian investigaciones técnicas.",
+   "orden": 78
+  },
+  {
+   "codigo": "P16.4",
+   "variableCodigo": "V16",
+   "texto": "Se adquieren equipos de monitoreo.",
+   "orden": 79
+  },
+  {
+   "codigo": "P16.5",
+   "variableCodigo": "V16",
+   "texto": "El presupuesto es suficiente para actualizar información de riesgos.",
+   "orden": 80
+  },
+  {
+   "codigo": "P17.1",
+   "variableCodigo": "V17",
+   "texto": "El GADM dispone de una ordenanza específica sobre gestión integral del riesgo de desastres.",
+   "orden": 81
+  },
+  {
+   "codigo": "P17.2",
+   "variableCodigo": "V17",
+   "texto": "La ordenanza se encuentra vigente y actualizada.",
+   "orden": 82
+  },
+  {
+   "codigo": "P17.3",
+   "variableCodigo": "V17",
+   "texto": "La ordenanza establece claramente competencias institucionales.",
+   "orden": 83
+  },
+  {
+   "codigo": "P17.4",
+   "variableCodigo": "V17",
+   "texto": "La ordenanza incorpora mecanismos de seguimiento.",
+   "orden": 84
+  },
+  {
+   "codigo": "P17.5",
+   "variableCodigo": "V17",
+   "texto": "La ordenanza es aplicada en la gestión municipal.",
+   "orden": 85
+  },
+  {
+   "codigo": "P18.1",
+   "variableCodigo": "V18",
+   "texto": "Existen regulaciones para edificaciones en zonas expuestas.",
+   "orden": 86
+  },
+  {
+   "codigo": "P18.2",
+   "variableCodigo": "V18",
+   "texto": "Se realizan inspecciones periódicas.",
+   "orden": 87
+  },
+  {
+   "codigo": "P18.3",
+   "variableCodigo": "V18",
+   "texto": "Se aplican sanciones por incumplimiento.",
+   "orden": 88
+  },
+  {
+   "codigo": "P18.4",
+   "variableCodigo": "V18",
+   "texto": "Se exige cumplimiento de normas sismorresistentes.",
+   "orden": 89
+  },
+  {
+   "codigo": "P18.5",
+   "variableCodigo": "V18",
+   "texto": "Los permisos de construcción consideran análisis de amenazas.",
+   "orden": 90
+  },
+  {
+   "codigo": "P19.1",
+   "variableCodigo": "V19",
+   "texto": "El municipio cuenta con sistemas de alerta temprana.",
+   "orden": 91
+  },
+  {
+   "codigo": "P19.2",
+   "variableCodigo": "V19",
+   "texto": "Los equipos funcionan adecuadamente.",
+   "orden": 92
+  },
+  {
+   "codigo": "P19.3",
+   "variableCodigo": "V19",
+   "texto": "La población conoce el significado de las alertas.",
+   "orden": 93
+  },
+  {
+   "codigo": "P19.4",
+   "variableCodigo": "V19",
+   "texto": "Se realizan pruebas periódicas.",
+   "orden": 94
+  },
+  {
+   "codigo": "P19.5",
+   "variableCodigo": "V19",
+   "texto": "El sistema cubre las principales amenazas.",
+   "orden": 95
+  },
+  {
+   "codigo": "P20.1",
+   "variableCodigo": "V20",
+   "texto": "Existe una plataforma informática de gestión del riesgo.",
+   "orden": 96
+  },
+  {
+   "codigo": "P20.2",
+   "variableCodigo": "V20",
+   "texto": "La información es actualizada regularmente.",
+   "orden": 97
+  },
+  {
+   "codigo": "P20.3",
+   "variableCodigo": "V20",
+   "texto": "Los usuarios tienen acceso oportuno.",
+   "orden": 98
+  },
+  {
+   "codigo": "P20.4",
+   "variableCodigo": "V20",
+   "texto": "La plataforma integra información geoespacial.",
+   "orden": 99
+  },
+  {
+   "codigo": "P20.5",
+   "variableCodigo": "V20",
+   "texto": "La información apoya decisiones institucionales.",
+   "orden": 100
+  },
+  {
+   "codigo": "P21.1",
+   "variableCodigo": "V21",
+   "texto": "Se realizan campañas anuales.",
+   "orden": 101
+  },
+  {
+   "codigo": "P21.2",
+   "variableCodigo": "V21",
+   "texto": "Se utilizan medios de comunicación locales.",
+   "orden": 102
+  },
+  {
+   "codigo": "P21.3",
+   "variableCodigo": "V21",
+   "texto": "Las campañas están dirigidas a grupos vulnerables.",
+   "orden": 103
+  },
+  {
+   "codigo": "P21.4",
+   "variableCodigo": "V21",
+   "texto": "Se evalúa el impacto de las campañas.",
+   "orden": 104
+  },
+  {
+   "codigo": "P21.5",
+   "variableCodigo": "V21",
+   "texto": "Las campañas mejoran la percepción del riesgo.",
+   "orden": 105
+  },
+  {
+   "codigo": "P22.1",
+   "variableCodigo": "V22",
+   "texto": "Existen programas educativos sobre riesgos.",
+   "orden": 106
+  },
+  {
+   "codigo": "P22.2",
+   "variableCodigo": "V22",
+   "texto": "Participan docentes y estudiantes.",
+   "orden": 107
+  },
+  {
+   "codigo": "P22.3",
+   "variableCodigo": "V22",
+   "texto": "Se desarrollan simulacros escolares.",
+   "orden": 108
+  },
+  {
+   "codigo": "P22.4",
+   "variableCodigo": "V22",
+   "texto": "Se dispone de materiales educativos.",
+   "orden": 109
+  },
+  {
+   "codigo": "P22.5",
+   "variableCodigo": "V22",
+   "texto": "Las instituciones educativas mantienen brigadas escolares.",
+   "orden": 110
+  },
+  {
+   "codigo": "P23.1",
+   "variableCodigo": "V23",
+   "texto": "El municipio ejecuta obras de mitigación.",
+   "orden": 111
+  },
+  {
+   "codigo": "P23.2",
+   "variableCodigo": "V23",
+   "texto": "Las obras responden a estudios técnicos.",
+   "orden": 112
+  },
+  {
+   "codigo": "P23.3",
+   "variableCodigo": "V23",
+   "texto": "Las obras reciben mantenimiento.",
+   "orden": 113
+  },
+  {
+   "codigo": "P23.4",
+   "variableCodigo": "V23",
+   "texto": "Las obras disminuyen la exposición.",
+   "orden": 114
+  },
+  {
+   "codigo": "P23.5",
+   "variableCodigo": "V23",
+   "texto": "Existe evaluación de efectividad.",
+   "orden": 115
+  },
+  {
+   "codigo": "P24.1",
+   "variableCodigo": "V24",
+   "texto": "Se han construido defensas ribereñas.",
+   "orden": 116
+  },
+  {
+   "codigo": "P24.2",
+   "variableCodigo": "V24",
+   "texto": "Se realiza mantenimiento periódico.",
+   "orden": 117
+  },
+  {
+   "codigo": "P24.3",
+   "variableCodigo": "V24",
+   "texto": "Se monitorea erosión fluvial.",
+   "orden": 118
+  },
+  {
+   "codigo": "P24.4",
+   "variableCodigo": "V24",
+   "texto": "Las obras cubren sectores prioritarios.",
+   "orden": 119
+  },
+  {
+   "codigo": "P24.5",
+   "variableCodigo": "V24",
+   "texto": "Se evalúa el desempeño hidráulico.",
+   "orden": 120
+  },
+  {
+   "codigo": "P25.1",
+   "variableCodigo": "V25",
+   "texto": "Se ejecutan obras de estabilización.",
+   "orden": 121
+  },
+  {
+   "codigo": "P25.2",
+   "variableCodigo": "V25",
+   "texto": "Existen estudios geotécnicos.",
+   "orden": 122
+  },
+  {
+   "codigo": "P25.3",
+   "variableCodigo": "V25",
+   "texto": "Se monitorean deslizamientos.",
+   "orden": 123
+  },
+  {
+   "codigo": "P25.4",
+   "variableCodigo": "V25",
+   "texto": "Se mantiene drenaje superficial.",
+   "orden": 124
+  },
+  {
+   "codigo": "P25.5",
+   "variableCodigo": "V25",
+   "texto": "Se reducen pérdidas asociadas.",
+   "orden": 125
+  },
+  {
+   "codigo": "P26.1",
+   "variableCodigo": "V26",
+   "texto": "Existen programas de reforestación.",
+   "orden": 126
+  },
+  {
+   "codigo": "P26.2",
+   "variableCodigo": "V26",
+   "texto": "Se utilizan especies nativas.",
+   "orden": 127
+  },
+  {
+   "codigo": "P26.3",
+   "variableCodigo": "V26",
+   "texto": "Se monitorea supervivencia.",
+   "orden": 128
+  },
+  {
+   "codigo": "P26.4",
+   "variableCodigo": "V26",
+   "texto": "Participan comunidades locales.",
+   "orden": 129
+  },
+  {
+   "codigo": "P26.5",
+   "variableCodigo": "V26",
+   "texto": "Se restauran ecosistemas degradados.",
+   "orden": 130
+  },
+  {
+   "codigo": "P27.1",
+   "variableCodigo": "V27",
+   "texto": "Existen proyectos de adaptación.",
+   "orden": 131
+  },
+  {
+   "codigo": "P27.2",
+   "variableCodigo": "V27",
+   "texto": "Se dispone de financiamiento.",
+   "orden": 132
+  },
+  {
+   "codigo": "P27.3",
+   "variableCodigo": "V27",
+   "texto": "Los proyectos benefician poblaciones vulnerables.",
+   "orden": 133
+  },
+  {
+   "codigo": "P27.4",
+   "variableCodigo": "V27",
+   "texto": "Se evalúan resultados.",
+   "orden": 134
+  },
+  {
+   "codigo": "P27.5",
+   "variableCodigo": "V27",
+   "texto": "Se integran medidas en planificación territorial.",
+   "orden": 135
+  },
+  {
+   "codigo": "P28.1",
+   "variableCodigo": "V28",
+   "texto": "Existe plan actualizado.",
+   "orden": 136
+  },
+  {
+   "codigo": "P28.2",
+   "variableCodigo": "V28",
+   "texto": "Fue aprobado oficialmente.",
+   "orden": 137
+  },
+  {
+   "codigo": "P28.3",
+   "variableCodigo": "V28",
+   "texto": "Es conocido por instituciones.",
+   "orden": 138
+  },
+  {
+   "codigo": "P28.4",
+   "variableCodigo": "V28",
+   "texto": "Se actualiza periódicamente.",
+   "orden": 139
+  },
+  {
+   "codigo": "P28.5",
+   "variableCodigo": "V28",
+   "texto": "Contiene escenarios multiamenaza.",
+   "orden": 140
+  },
+  {
+   "codigo": "P29.1",
+   "variableCodigo": "V29",
+   "texto": "Se identifican escenarios probables.",
+   "orden": 141
+  },
+  {
+   "codigo": "P29.2",
+   "variableCodigo": "V29",
+   "texto": "Se consideran efectos en infraestructura.",
+   "orden": 142
+  },
+  {
+   "codigo": "P29.3",
+   "variableCodigo": "V29",
+   "texto": "Incluyen población vulnerable.",
+   "orden": 143
+  },
+  {
+   "codigo": "P29.4",
+   "variableCodigo": "V29",
+   "texto": "Se utilizan en simulaciones.",
+   "orden": 144
+  },
+  {
+   "codigo": "P29.5",
+   "variableCodigo": "V29",
+   "texto": "Son revisados periódicamente.",
+   "orden": 145
+  },
+  {
+   "codigo": "P30.1",
+   "variableCodigo": "V30",
+   "texto": "Se realizan simulacros anuales.",
+   "orden": 146
+  },
+  {
+   "codigo": "P30.2",
+   "variableCodigo": "V30",
+   "texto": "Participan instituciones públicas.",
+   "orden": 147
+  },
+  {
+   "codigo": "P30.3",
+   "variableCodigo": "V30",
+   "texto": "Participa ciudadanía.",
+   "orden": 148
+  },
+  {
+   "codigo": "P30.4",
+   "variableCodigo": "V30",
+   "texto": "Existen informes de evaluación.",
+   "orden": 149
+  },
+  {
+   "codigo": "P30.5",
+   "variableCodigo": "V30",
+   "texto": "Se aplican lecciones aprendidas.",
+   "orden": 150
+  },
+  {
+   "codigo": "P31.1",
+   "variableCodigo": "V31",
+   "texto": "Participan líderes comunitarios.",
+   "orden": 151
+  },
+  {
+   "codigo": "P31.2",
+   "variableCodigo": "V31",
+   "texto": "Participan centros educativos.",
+   "orden": 152
+  },
+  {
+   "codigo": "P31.3",
+   "variableCodigo": "V31",
+   "texto": "Participan empresas.",
+   "orden": 153
+  },
+  {
+   "codigo": "P31.4",
+   "variableCodigo": "V31",
+   "texto": "Participan organizaciones sociales.",
+   "orden": 154
+  },
+  {
+   "codigo": "P31.5",
+   "variableCodigo": "V31",
+   "texto": "La participación aumenta cada año.",
+   "orden": 155
+  },
+  {
+   "codigo": "P32.1",
+   "variableCodigo": "V32",
+   "texto": "Existe equipo de rescate.",
+   "orden": 156
+  },
+  {
+   "codigo": "P32.2",
+   "variableCodigo": "V32",
+   "texto": "Personal certificado.",
+   "orden": 157
+  },
+  {
+   "codigo": "P32.3",
+   "variableCodigo": "V32",
+   "texto": "Capacitación periódica.",
+   "orden": 158
+  },
+  {
+   "codigo": "P32.4",
+   "variableCodigo": "V32",
+   "texto": "Equipamiento suficiente.",
+   "orden": 159
+  },
+  {
+   "codigo": "P32.5",
+   "variableCodigo": "V32",
+   "texto": "Protocolos operativos vigentes.",
+   "orden": 160
+  },
+  {
+   "codigo": "P33.1",
+   "variableCodigo": "V33",
+   "texto": "Inventario actualizado.",
+   "orden": 161
+  },
+  {
+   "codigo": "P33.2",
+   "variableCodigo": "V33",
+   "texto": "Recursos georreferenciados.",
+   "orden": 162
+  },
+  {
+   "codigo": "P33.3",
+   "variableCodigo": "V33",
+   "texto": "Inventario digitalizado.",
+   "orden": 163
+  },
+  {
+   "codigo": "P33.4",
+   "variableCodigo": "V33",
+   "texto": "Información accesible.",
+   "orden": 164
+  },
+  {
+   "codigo": "P33.5",
+   "variableCodigo": "V33",
+   "texto": "Inventario revisado anualmente.",
+   "orden": 165
+  },
+  {
+   "codigo": "P34.1",
+   "variableCodigo": "V34",
+   "texto": "Se conoce maquinaria disponible.",
+   "orden": 166
+  },
+  {
+   "codigo": "P34.2",
+   "variableCodigo": "V34",
+   "texto": "Está operativa.",
+   "orden": 167
+  },
+  {
+   "codigo": "P34.3",
+   "variableCodigo": "V34",
+   "texto": "Existen convenios de apoyo.",
+   "orden": 168
+  },
+  {
+   "codigo": "P34.4",
+   "variableCodigo": "V34",
+   "texto": "Se mantiene adecuadamente.",
+   "orden": 169
+  },
+  {
+   "codigo": "P34.5",
+   "variableCodigo": "V34",
+   "texto": "Es suficiente para emergencias.",
+   "orden": 170
+  },
+  {
+   "codigo": "P35.1",
+   "variableCodigo": "V35",
+   "texto": "Existen reservas estratégicas.",
+   "orden": 171
+  },
+  {
+   "codigo": "P35.2",
+   "variableCodigo": "V35",
+   "texto": "Alimentos suficientes.",
+   "orden": 172
+  },
+  {
+   "codigo": "P35.3",
+   "variableCodigo": "V35",
+   "texto": "Kits de higiene suficientes.",
+   "orden": 173
+  },
+  {
+   "codigo": "P35.4",
+   "variableCodigo": "V35",
+   "texto": "Mecanismos de distribución.",
+   "orden": 174
+  },
+  {
+   "codigo": "P35.5",
+   "variableCodigo": "V35",
+   "texto": "Inventario actualizado.",
+   "orden": 175
+  },
+  {
+   "codigo": "P36.1",
+   "variableCodigo": "V36",
+   "texto": "Están identificados.",
+   "orden": 176
+  },
+  {
+   "codigo": "P36.2",
+   "variableCodigo": "V36",
+   "texto": "Cumplen estándares mínimos.",
+   "orden": 177
+  },
+  {
+   "codigo": "P36.3",
+   "variableCodigo": "V36",
+   "texto": "Son accesibles.",
+   "orden": 178
+  },
+  {
+   "codigo": "P36.4",
+   "variableCodigo": "V36",
+   "texto": "Poseen servicios básicos.",
+   "orden": 179
+  },
+  {
+   "codigo": "P36.5",
+   "variableCodigo": "V36",
+   "texto": "Son inspeccionados regularmente.",
+   "orden": 180
+  },
+  {
+   "codigo": "P37.1",
+   "variableCodigo": "V37",
+   "texto": "Capacidad suficiente.",
+   "orden": 181
+  },
+  {
+   "codigo": "P37.2",
+   "variableCodigo": "V37",
+   "texto": "Existe mobiliario disponible.",
+   "orden": 182
+  },
+  {
+   "codigo": "P37.3",
+   "variableCodigo": "V37",
+   "texto": "Hay protocolos de administración.",
+   "orden": 183
+  },
+  {
+   "codigo": "P37.4",
+   "variableCodigo": "V37",
+   "texto": "Consideran personas vulnerables.",
+   "orden": 184
+  },
+  {
+   "codigo": "P37.5",
+   "variableCodigo": "V37",
+   "texto": "Son funcionales durante emergencias.",
+   "orden": 185
+  },
+  {
+   "codigo": "P38.1",
+   "variableCodigo": "V38",
+   "texto": "Activación rápida.",
+   "orden": 186
+  },
+  {
+   "codigo": "P38.2",
+   "variableCodigo": "V38",
+   "texto": "Protocolos conocidos.",
+   "orden": 187
+  },
+  {
+   "codigo": "P38.3",
+   "variableCodigo": "V38",
+   "texto": "Convocatoria eficiente.",
+   "orden": 188
+  },
+  {
+   "codigo": "P38.4",
+   "variableCodigo": "V38",
+   "texto": "Comunicación efectiva.",
+   "orden": 189
+  },
+  {
+   "codigo": "P38.5",
+   "variableCodigo": "V38",
+   "texto": "Evaluación posterior.",
+   "orden": 190
+  },
+  {
+   "codigo": "P39.1",
+   "variableCodigo": "V39",
+   "texto": "Recursos movilizados oportunamente.",
+   "orden": 191
+  },
+  {
+   "codigo": "P39.2",
+   "variableCodigo": "V39",
+   "texto": "Personal disponible.",
+   "orden": 192
+  },
+  {
+   "codigo": "P39.3",
+   "variableCodigo": "V39",
+   "texto": "Transporte suficiente.",
+   "orden": 193
+  },
+  {
+   "codigo": "P39.4",
+   "variableCodigo": "V39",
+   "texto": "Coordinación interinstitucional.",
+   "orden": 194
+  },
+  {
+   "codigo": "P39.5",
+   "variableCodigo": "V39",
+   "texto": "Cobertura adecuada.",
+   "orden": 195
+  },
+  {
+   "codigo": "P40.1",
+   "variableCodigo": "V40",
+   "texto": "Entrega rápida.",
+   "orden": 196
+  },
+  {
+   "codigo": "P40.2",
+   "variableCodigo": "V40",
+   "texto": "Cobertura suficiente.",
+   "orden": 197
+  },
+  {
+   "codigo": "P40.3",
+   "variableCodigo": "V40",
+   "texto": "Priorización adecuada.",
+   "orden": 198
+  },
+  {
+   "codigo": "P40.4",
+   "variableCodigo": "V40",
+   "texto": "Registro de beneficiarios.",
+   "orden": 199
+  },
+  {
+   "codigo": "P40.5",
+   "variableCodigo": "V40",
+   "texto": "Seguimiento posterior.",
+   "orden": 200
+  },
+  {
+   "codigo": "P41.1",
+   "variableCodigo": "V41",
+   "texto": "Protocolos aprobados.",
+   "orden": 201
+  },
+  {
+   "codigo": "P41.2",
+   "variableCodigo": "V41",
+   "texto": "Personal capacitado.",
+   "orden": 202
+  },
+  {
+   "codigo": "P41.3",
+   "variableCodigo": "V41",
+   "texto": "Simulados previamente.",
+   "orden": 203
+  },
+  {
+   "codigo": "P41.4",
+   "variableCodigo": "V41",
+   "texto": "Actualizados.",
+   "orden": 204
+  },
+  {
+   "codigo": "P41.5",
+   "variableCodigo": "V41",
+   "texto": "Compatibles con lineamientos nacionales.",
+   "orden": 205
+  },
+  {
+   "codigo": "P42.1",
+   "variableCodigo": "V42",
+   "texto": "Se realizan Evaluaciones Post Desastres.",
+   "orden": 206
+  },
+  {
+   "codigo": "P42.2",
+   "variableCodigo": "V42",
+   "texto": "Existen informes técnicos.",
+   "orden": 207
+  },
+  {
+   "codigo": "P42.3",
+   "variableCodigo": "V42",
+   "texto": "Participan expertos.",
+   "orden": 208
+  },
+  {
+   "codigo": "P42.4",
+   "variableCodigo": "V42",
+   "texto": "Resultados difundidos.",
+   "orden": 209
+  },
+  {
+   "codigo": "P42.5",
+   "variableCodigo": "V42",
+   "texto": "Sirven para mejorar capacidades.",
+   "orden": 210
+  },
+  {
+   "codigo": "P43.1",
+   "variableCodigo": "V43",
+   "texto": "Recursos disponibles.",
+   "orden": 211
+  },
+  {
+   "codigo": "P43.2",
+   "variableCodigo": "V43",
+   "texto": "Procesos ágiles.",
+   "orden": 212
+  },
+  {
+   "codigo": "P43.3",
+   "variableCodigo": "V43",
+   "texto": "Transparencia financiera.",
+   "orden": 213
+  },
+  {
+   "codigo": "P43.4",
+   "variableCodigo": "V43",
+   "texto": "Cobertura suficiente.",
+   "orden": 214
+  },
+  {
+   "codigo": "P43.5",
+   "variableCodigo": "V43",
+   "texto": "Auditoría posterior.",
+   "orden": 215
+  },
+  {
+   "codigo": "P44.1",
+   "variableCodigo": "V44",
+   "texto": "Metodologías oficiales.",
+   "orden": 216
+  },
+  {
+   "codigo": "P44.2",
+   "variableCodigo": "V44",
+   "texto": "Personal capacitado.",
+   "orden": 217
+  },
+  {
+   "codigo": "P44.3",
+   "variableCodigo": "V44",
+   "texto": "Base de datos histórica.",
+   "orden": 218
+  },
+  {
+   "codigo": "P44.4",
+   "variableCodigo": "V44",
+   "texto": "Evaluación rápida.",
+   "orden": 219
+  },
+  {
+   "codigo": "P44.5",
+   "variableCodigo": "V44",
+   "texto": "Uso para planificación.",
+   "orden": 220
+  },
+  {
+   "codigo": "P45.1",
+   "variableCodigo": "V45",
+   "texto": "Fondo contingente.",
+   "orden": 221
+  },
+  {
+   "codigo": "P45.2",
+   "variableCodigo": "V45",
+   "texto": "Seguros disponibles.",
+   "orden": 222
+  },
+  {
+   "codigo": "P45.3",
+   "variableCodigo": "V45",
+   "texto": "Convenios financieros.",
+   "orden": 223
+  },
+  {
+   "codigo": "P45.4",
+   "variableCodigo": "V45",
+   "texto": "Acceso a créditos.",
+   "orden": 224
+  },
+  {
+   "codigo": "P45.5",
+   "variableCodigo": "V45",
+   "texto": "Recursos extraordinarios.",
+   "orden": 225
+  },
+  {
+   "codigo": "P46.1",
+   "variableCodigo": "V46",
+   "texto": "Existe plan.",
+   "orden": 226
+  },
+  {
+   "codigo": "P46.2",
+   "variableCodigo": "V46",
+   "texto": "Está actualizado.",
+   "orden": 227
+  },
+  {
+   "codigo": "P46.3",
+   "variableCodigo": "V46",
+   "texto": "Incluye cronograma.",
+   "orden": 228
+  },
+  {
+   "codigo": "P46.4",
+   "variableCodigo": "V46",
+   "texto": "Incluye presupuesto.",
+   "orden": 229
+  },
+  {
+   "codigo": "P46.5",
+   "variableCodigo": "V46",
+   "texto": "Define responsables.",
+   "orden": 230
+  },
+  {
+   "codigo": "P47.1",
+   "variableCodigo": "V47",
+   "texto": "Se aplica Build Back Better (Recostruir mejor atenuando el riesgo).",
+   "orden": 231
+  },
+  {
+   "codigo": "P47.2",
+   "variableCodigo": "V47",
+   "texto": "Nuevas obras son resilientes.",
+   "orden": 232
+  },
+  {
+   "codigo": "P47.3",
+   "variableCodigo": "V47",
+   "texto": "Se reducen vulnerabilidades.",
+   "orden": 233
+  },
+  {
+   "codigo": "P47.4",
+   "variableCodigo": "V47",
+   "texto": "Existen indicadores.",
+   "orden": 234
+  },
+  {
+   "codigo": "P47.5",
+   "variableCodigo": "V47",
+   "texto": "Se monitorea cumplimiento.",
+   "orden": 235
+  },
+  {
+   "codigo": "P48.1",
+   "variableCodigo": "V48",
+   "texto": "Agua potable garantizada.",
+   "orden": 236
+  },
+  {
+   "codigo": "P48.2",
+   "variableCodigo": "V48",
+   "texto": "Energía restablecida.",
+   "orden": 237
+  },
+  {
+   "codigo": "P48.3",
+   "variableCodigo": "V48",
+   "texto": "Salud operativa.",
+   "orden": 238
+  },
+  {
+   "codigo": "P48.4",
+   "variableCodigo": "V48",
+   "texto": "Recolección de residuos.",
+   "orden": 239
+  },
+  {
+   "codigo": "P48.5",
+   "variableCodigo": "V48",
+   "texto": "Comunicaciones funcionales.",
+   "orden": 240
+  },
+  {
+   "codigo": "P49.1",
+   "variableCodigo": "V49",
+   "texto": "Seguros institucionales.",
+   "orden": 241
+  },
+  {
+   "codigo": "P49.2",
+   "variableCodigo": "V49",
+   "texto": "Pólizas vigentes.",
+   "orden": 242
+  },
+  {
+   "codigo": "P49.3",
+   "variableCodigo": "V49",
+   "texto": "Cobertura suficiente.",
+   "orden": 243
+  },
+  {
+   "codigo": "P49.4",
+   "variableCodigo": "V49",
+   "texto": "Revisión periódica.",
+   "orden": 244
+  },
+  {
+   "codigo": "P49.5",
+   "variableCodigo": "V49",
+   "texto": "Conocimiento institucional.",
+   "orden": 245
+  },
+  {
+   "codigo": "P50.1",
+   "variableCodigo": "V50",
+   "texto": "Informes anuales.",
+   "orden": 246
+  },
+  {
+   "codigo": "P50.2",
+   "variableCodigo": "V50",
+   "texto": "Información pública.",
+   "orden": 247
+  },
+  {
+   "codigo": "P50.3",
+   "variableCodigo": "V50",
+   "texto": "Participación ciudadana.",
+   "orden": 248
+  },
+  {
+   "codigo": "P50.4",
+   "variableCodigo": "V50",
+   "texto": "Auditorías efectuadas.",
+   "orden": 249
+  },
+  {
+   "codigo": "P50.5",
+   "variableCodigo": "V50",
+   "texto": "Recomendaciones implementadas.",
+   "orden": 250
+  },
+  {
+   "codigo": "P51.1",
+   "variableCodigo": "V51",
+   "texto": "Presupuesto suficiente.",
+   "orden": 251
+  },
+  {
+   "codigo": "P51.2",
+   "variableCodigo": "V51",
+   "texto": "Ejecución adecuada.",
+   "orden": 252
+  },
+  {
+   "codigo": "P51.3",
+   "variableCodigo": "V51",
+   "texto": "Incremento progresivo.",
+   "orden": 253
+  },
+  {
+   "codigo": "P51.4",
+   "variableCodigo": "V51",
+   "texto": "Diversificación de fuentes.",
+   "orden": 254
+  },
+  {
+   "codigo": "P51.5",
+   "variableCodigo": "V51",
+   "texto": "Alineación con necesidades territoriales.",
+   "orden": 255
+  },
+  {
+   "codigo": "P52.1",
+   "variableCodigo": "V52",
+   "texto": "Planes registrados.",
+   "orden": 256
+  },
+  {
+   "codigo": "P52.2",
+   "variableCodigo": "V52",
+   "texto": "Protocolos registrados.",
+   "orden": 257
+  },
+  {
+   "codigo": "P52.3",
+   "variableCodigo": "V52",
+   "texto": "Actualización periódica.",
+   "orden": 258
+  },
+  {
+   "codigo": "P52.4",
+   "variableCodigo": "V52",
+   "texto": "Validación institucional.",
+   "orden": 259
+  },
+  {
+   "codigo": "P52.5",
+   "variableCodigo": "V52",
+   "texto": "Disponibilidad documental.",
+   "orden": 260
+  },
+  {
+   "codigo": "P53.1",
+   "variableCodigo": "V53",
+   "texto": "Participación en planificación.",
+   "orden": 261
+  },
+  {
+   "codigo": "P53.2",
+   "variableCodigo": "V53",
+   "texto": "Participación en simulacros.",
+   "orden": 262
+  },
+  {
+   "codigo": "P53.3",
+   "variableCodigo": "V53",
+   "texto": "Participación en evaluaciones.",
+   "orden": 263
+  },
+  {
+   "codigo": "P53.4",
+   "variableCodigo": "V53",
+   "texto": "Inclusión de comunidades rurales.",
+   "orden": 264
+  },
+  {
+   "codigo": "P53.5",
+   "variableCodigo": "V53",
+   "texto": "Retroalimentación ciudadana.",
+   "orden": 265
+  },
+  {
+   "codigo": "P54.1",
+   "variableCodigo": "V54",
+   "texto": "Convenios vigentes.",
+   "orden": 266
+  },
+  {
+   "codigo": "P54.2",
+   "variableCodigo": "V54",
+   "texto": "Investigación conjunta.",
+   "orden": 267
+  },
+  {
+   "codigo": "P54.3",
+   "variableCodigo": "V54",
+   "texto": "Pasantías estudiantiles.",
+   "orden": 268
+  },
+  {
+   "codigo": "P54.4",
+   "variableCodigo": "V54",
+   "texto": "Asistencia técnica.",
+   "orden": 269
+  },
+  {
+   "codigo": "P54.5",
+   "variableCodigo": "V54",
+   "texto": "Transferencia tecnológica.",
+   "orden": 270
+  },
+  {
+   "codigo": "P55.1",
+   "variableCodigo": "V55",
+   "texto": "Participación de mujeres.",
+   "orden": 271
+  },
+  {
+   "codigo": "P55.2",
+   "variableCodigo": "V55",
+   "texto": "Participación de adultos mayores.",
+   "orden": 272
+  },
+  {
+   "codigo": "P55.3",
+   "variableCodigo": "V55",
+   "texto": "Participación de personas con discapacidad.",
+   "orden": 273
+  },
+  {
+   "codigo": "P55.4",
+   "variableCodigo": "V55",
+   "texto": "Participación de pueblos y nacionalidades.",
+   "orden": 274
+  },
+  {
+   "codigo": "P55.5",
+   "variableCodigo": "V55",
+   "texto": "Incorporación de necesidades diferenciadas.",
+   "orden": 275
+  }
+ ],
+ "provincias": [
+  "Azuay",
+  "Bolívar",
+  "Carchi",
+  "Cañar",
+  "Chimborazo",
+  "Cotopaxi",
+  "El Oro",
+  "Esmeraldas",
+  "Galápagos",
+  "Guayas",
+  "Imbabura",
+  "Loja",
+  "Los Ríos",
+  "Manabí",
+  "Morona Santiago",
+  "Napo",
+  "Orellana",
+  "Pastaza",
+  "Pichincha",
+  "Santa Elena",
+  "Santo Domingo de los Tsáchilas",
+  "Sucumbíos",
+  "Tungurahua",
+  "Zamora Chinchipe"
+ ],
+ "cantones": [
+  {
+   "nombre": "24 de Mayo",
+   "provincia": "Manabí",
+   "tipo": "Micro"
+  },
+  {
+   "nombre": "Aguarico",
+   "provincia": "Orellana",
+   "tipo": "Pequeño"
+  },
+  {
+   "nombre": "Alausí",
+   "provincia": "Chimborazo",
+   "tipo": "Mediano"
+  },
+  {
+   "nombre": "Ambato",
+   "provincia": "Tungurahua",
+   "tipo": "Grande"
+  },
+  {
+   "nombre": "Antonio Ante",
+   "provincia": "Imbabura",
+   "tipo": "Metropolitano"
+  },
+  {
+   "nombre": "Arajuno",
+   "provincia": "Pastaza",
+   "tipo": null
+  },
+  {
+   "nombre": "Archidona",
+   "provincia": "Napo",
+   "tipo": null
+  },
+  {
+   "nombre": "Arenillas",
+   "provincia": "El Oro",
+   "tipo": null
+  },
+  {
+   "nombre": "Atacames",
+   "provincia": "Esmeraldas",
+   "tipo": null
+  },
+  {
+   "nombre": "Atahualpa",
+   "provincia": "El Oro",
+   "tipo": null
+  },
+  {
+   "nombre": "Azogues",
+   "provincia": "Cañar",
+   "tipo": null
+  },
+  {
+   "nombre": "Baba",
+   "provincia": "Los Ríos",
+   "tipo": null
+  },
+  {
+   "nombre": "Babahoyo",
+   "provincia": "Los Ríos",
+   "tipo": null
+  },
+  {
+   "nombre": "Balao",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Balsas",
+   "provincia": "El Oro",
+   "tipo": null
+  },
+  {
+   "nombre": "Balzar",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Baños de Agua Santa",
+   "provincia": "Tungurahua",
+   "tipo": null
+  },
+  {
+   "nombre": "Biblián",
+   "provincia": "Cañar",
+   "tipo": null
+  },
+  {
+   "nombre": "Bolívar",
+   "provincia": "Carchi",
+   "tipo": null
+  },
+  {
+   "nombre": "Bolívar",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "Buena Fe",
+   "provincia": "Los Ríos",
+   "tipo": null
+  },
+  {
+   "nombre": "Caluma",
+   "provincia": "Bolívar",
+   "tipo": null
+  },
+  {
+   "nombre": "Calvas",
+   "provincia": "Loja",
+   "tipo": null
+  },
+  {
+   "nombre": "Camilo Ponce Enríquez",
+   "provincia": "Azuay",
+   "tipo": null
+  },
+  {
+   "nombre": "Cañar",
+   "provincia": "Cañar",
+   "tipo": null
+  },
+  {
+   "nombre": "Carlos Julio Arosemena Tola",
+   "provincia": "Napo",
+   "tipo": null
+  },
+  {
+   "nombre": "Cascales",
+   "provincia": "Sucumbíos",
+   "tipo": null
+  },
+  {
+   "nombre": "Catamayo",
+   "provincia": "Loja",
+   "tipo": null
+  },
+  {
+   "nombre": "Cayambe",
+   "provincia": "Pichincha",
+   "tipo": null
+  },
+  {
+   "nombre": "Celica",
+   "provincia": "Loja",
+   "tipo": null
+  },
+  {
+   "nombre": "Centinela del Cóndor",
+   "provincia": "Zamora Chinchipe",
+   "tipo": null
+  },
+  {
+   "nombre": "Cevallos",
+   "provincia": "Tungurahua",
+   "tipo": null
+  },
+  {
+   "nombre": "Chaguarpamba",
+   "provincia": "Loja",
+   "tipo": null
+  },
+  {
+   "nombre": "Chambo",
+   "provincia": "Chimborazo",
+   "tipo": null
+  },
+  {
+   "nombre": "Chilla",
+   "provincia": "El Oro",
+   "tipo": null
+  },
+  {
+   "nombre": "Chillanes",
+   "provincia": "Bolívar",
+   "tipo": null
+  },
+  {
+   "nombre": "Chimbo",
+   "provincia": "Bolívar",
+   "tipo": null
+  },
+  {
+   "nombre": "Chinchipe",
+   "provincia": "Zamora Chinchipe",
+   "tipo": null
+  },
+  {
+   "nombre": "Chone",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "Chordeleg",
+   "provincia": "Azuay",
+   "tipo": null
+  },
+  {
+   "nombre": "Chunchi",
+   "provincia": "Chimborazo",
+   "tipo": null
+  },
+  {
+   "nombre": "Colimes",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Colta",
+   "provincia": "Chimborazo",
+   "tipo": null
+  },
+  {
+   "nombre": "Cotacachi",
+   "provincia": "Imbabura",
+   "tipo": null
+  },
+  {
+   "nombre": "Cuenca",
+   "provincia": "Azuay",
+   "tipo": null
+  },
+  {
+   "nombre": "Cumandá",
+   "provincia": "Chimborazo",
+   "tipo": null
+  },
+  {
+   "nombre": "Cuyabeno",
+   "provincia": "Sucumbíos",
+   "tipo": null
+  },
+  {
+   "nombre": "Daule",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Déleg",
+   "provincia": "Cañar",
+   "tipo": null
+  },
+  {
+   "nombre": "Durán",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Echeandía",
+   "provincia": "Bolívar",
+   "tipo": null
+  },
+  {
+   "nombre": "El Carmen",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "El Chaco",
+   "provincia": "Napo",
+   "tipo": null
+  },
+  {
+   "nombre": "El Empalme",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "El Guabo",
+   "provincia": "El Oro",
+   "tipo": null
+  },
+  {
+   "nombre": "El Pan",
+   "provincia": "Azuay",
+   "tipo": null
+  },
+  {
+   "nombre": "El Pangui",
+   "provincia": "Zamora Chinchipe",
+   "tipo": null
+  },
+  {
+   "nombre": "El Tambo",
+   "provincia": "Cañar",
+   "tipo": null
+  },
+  {
+   "nombre": "El Triunfo",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Eloy Alfaro",
+   "provincia": "Esmeraldas",
+   "tipo": null
+  },
+  {
+   "nombre": "Esmeraldas",
+   "provincia": "Esmeraldas",
+   "tipo": null
+  },
+  {
+   "nombre": "Espejo",
+   "provincia": "Carchi",
+   "tipo": null
+  },
+  {
+   "nombre": "Espíndola",
+   "provincia": "Loja",
+   "tipo": null
+  },
+  {
+   "nombre": "Flavio Alfaro",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "Francisco de Orellana",
+   "provincia": "Orellana",
+   "tipo": null
+  },
+  {
+   "nombre": "Girón",
+   "provincia": "Azuay",
+   "tipo": null
+  },
+  {
+   "nombre": "Gonzalo Pizarro",
+   "provincia": "Sucumbíos",
+   "tipo": null
+  },
+  {
+   "nombre": "Gonzanamá",
+   "provincia": "Loja",
+   "tipo": null
+  },
+  {
+   "nombre": "Guachapala",
+   "provincia": "Azuay",
+   "tipo": null
+  },
+  {
+   "nombre": "Gualaceo",
+   "provincia": "Azuay",
+   "tipo": null
+  },
+  {
+   "nombre": "Gualaquiza",
+   "provincia": "Morona Santiago",
+   "tipo": null
+  },
+  {
+   "nombre": "Guamote",
+   "provincia": "Chimborazo",
+   "tipo": null
+  },
+  {
+   "nombre": "Guano",
+   "provincia": "Chimborazo",
+   "tipo": null
+  },
+  {
+   "nombre": "Guaranda",
+   "provincia": "Bolívar",
+   "tipo": null
+  },
+  {
+   "nombre": "Guayaquil",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Huamboya",
+   "provincia": "Morona Santiago",
+   "tipo": null
+  },
+  {
+   "nombre": "Huaquillas",
+   "provincia": "El Oro",
+   "tipo": null
+  },
+  {
+   "nombre": "Ibarra",
+   "provincia": "Imbabura",
+   "tipo": null
+  },
+  {
+   "nombre": "Isabela",
+   "provincia": "Galápagos",
+   "tipo": null
+  },
+  {
+   "nombre": "Isidro Ayora",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Jama",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "Jaramijó",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "Jipijapa",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "Junín",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "La Concordia",
+   "provincia": "Santo Domingo de los Tsáchilas",
+   "tipo": null
+  },
+  {
+   "nombre": "La Joya de los Sachas",
+   "provincia": "Orellana",
+   "tipo": null
+  },
+  {
+   "nombre": "La Libertad",
+   "provincia": "Santa Elena",
+   "tipo": null
+  },
+  {
+   "nombre": "La Maná",
+   "provincia": "Cotopaxi",
+   "tipo": null
+  },
+  {
+   "nombre": "La Troncal",
+   "provincia": "Cañar",
+   "tipo": null
+  },
+  {
+   "nombre": "Lago Agrio",
+   "provincia": "Sucumbíos",
+   "tipo": null
+  },
+  {
+   "nombre": "Las Lajas",
+   "provincia": "El Oro",
+   "tipo": null
+  },
+  {
+   "nombre": "Las Naves",
+   "provincia": "Bolívar",
+   "tipo": null
+  },
+  {
+   "nombre": "Latacunga",
+   "provincia": "Cotopaxi",
+   "tipo": null
+  },
+  {
+   "nombre": "Limón Indanza",
+   "provincia": "Morona Santiago",
+   "tipo": null
+  },
+  {
+   "nombre": "Logroño",
+   "provincia": "Morona Santiago",
+   "tipo": null
+  },
+  {
+   "nombre": "Loja",
+   "provincia": "Loja",
+   "tipo": null
+  },
+  {
+   "nombre": "Lomas de Sargentillo",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Loreto",
+   "provincia": "Orellana",
+   "tipo": null
+  },
+  {
+   "nombre": "Macará",
+   "provincia": "Loja",
+   "tipo": null
+  },
+  {
+   "nombre": "Machala",
+   "provincia": "El Oro",
+   "tipo": null
+  },
+  {
+   "nombre": "Manta",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "Marcabelí",
+   "provincia": "El Oro",
+   "tipo": null
+  },
+  {
+   "nombre": "Marcelino Maridueña",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Mejía",
+   "provincia": "Pichincha",
+   "tipo": null
+  },
+  {
+   "nombre": "Mera",
+   "provincia": "Pastaza",
+   "tipo": null
+  },
+  {
+   "nombre": "Milagro",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Mira",
+   "provincia": "Carchi",
+   "tipo": null
+  },
+  {
+   "nombre": "Mocache",
+   "provincia": "Los Ríos",
+   "tipo": null
+  },
+  {
+   "nombre": "Mocha",
+   "provincia": "Tungurahua",
+   "tipo": null
+  },
+  {
+   "nombre": "Montalvo",
+   "provincia": "Los Ríos",
+   "tipo": null
+  },
+  {
+   "nombre": "Montecristi",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "Montúfar",
+   "provincia": "Carchi",
+   "tipo": null
+  },
+  {
+   "nombre": "Morona",
+   "provincia": "Morona Santiago",
+   "tipo": null
+  },
+  {
+   "nombre": "Muisne",
+   "provincia": "Esmeraldas",
+   "tipo": null
+  },
+  {
+   "nombre": "Nabón",
+   "provincia": "Azuay",
+   "tipo": null
+  },
+  {
+   "nombre": "Nangaritza",
+   "provincia": "Zamora Chinchipe",
+   "tipo": null
+  },
+  {
+   "nombre": "Naranjal",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Naranjito",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Nobol",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Olmedo",
+   "provincia": "Loja",
+   "tipo": null
+  },
+  {
+   "nombre": "Olmedo",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "Oña",
+   "provincia": "Azuay",
+   "tipo": null
+  },
+  {
+   "nombre": "Otavalo",
+   "provincia": "Imbabura",
+   "tipo": null
+  },
+  {
+   "nombre": "Pablo Sexto",
+   "provincia": "Morona Santiago",
+   "tipo": null
+  },
+  {
+   "nombre": "Paján",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "Palanda",
+   "provincia": "Zamora Chinchipe",
+   "tipo": null
+  },
+  {
+   "nombre": "Palenque",
+   "provincia": "Los Ríos",
+   "tipo": null
+  },
+  {
+   "nombre": "Palestina",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Pallatanga",
+   "provincia": "Chimborazo",
+   "tipo": null
+  },
+  {
+   "nombre": "Palora",
+   "provincia": "Morona Santiago",
+   "tipo": null
+  },
+  {
+   "nombre": "Paltas",
+   "provincia": "Loja",
+   "tipo": null
+  },
+  {
+   "nombre": "Pangua",
+   "provincia": "Cotopaxi",
+   "tipo": null
+  },
+  {
+   "nombre": "Paquisha",
+   "provincia": "Zamora Chinchipe",
+   "tipo": null
+  },
+  {
+   "nombre": "Pasaje",
+   "provincia": "El Oro",
+   "tipo": null
+  },
+  {
+   "nombre": "Pastaza",
+   "provincia": "Pastaza",
+   "tipo": null
+  },
+  {
+   "nombre": "Patate",
+   "provincia": "Tungurahua",
+   "tipo": null
+  },
+  {
+   "nombre": "Paute",
+   "provincia": "Azuay",
+   "tipo": null
+  },
+  {
+   "nombre": "Pedernales",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "Pedro Carbo",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Pedro Moncayo",
+   "provincia": "Pichincha",
+   "tipo": null
+  },
+  {
+   "nombre": "Pedro Vicente Maldonado",
+   "provincia": "Pichincha",
+   "tipo": null
+  },
+  {
+   "nombre": "Pelileo",
+   "provincia": "Tungurahua",
+   "tipo": null
+  },
+  {
+   "nombre": "Penipe",
+   "provincia": "Chimborazo",
+   "tipo": null
+  },
+  {
+   "nombre": "Pichincha",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "Píllaro",
+   "provincia": "Tungurahua",
+   "tipo": null
+  },
+  {
+   "nombre": "Pimampiro",
+   "provincia": "Imbabura",
+   "tipo": null
+  },
+  {
+   "nombre": "Pindal",
+   "provincia": "Loja",
+   "tipo": null
+  },
+  {
+   "nombre": "Piñas",
+   "provincia": "El Oro",
+   "tipo": null
+  },
+  {
+   "nombre": "Playas",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Portovelo",
+   "provincia": "El Oro",
+   "tipo": null
+  },
+  {
+   "nombre": "Portoviejo",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "Pucará",
+   "provincia": "Azuay",
+   "tipo": null
+  },
+  {
+   "nombre": "Puebloviejo",
+   "provincia": "Los Ríos",
+   "tipo": null
+  },
+  {
+   "nombre": "Puerto López",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "Puerto Quito",
+   "provincia": "Pichincha",
+   "tipo": null
+  },
+  {
+   "nombre": "Pujilí",
+   "provincia": "Cotopaxi",
+   "tipo": null
+  },
+  {
+   "nombre": "Putumayo",
+   "provincia": "Sucumbíos",
+   "tipo": null
+  },
+  {
+   "nombre": "Puyango",
+   "provincia": "Loja",
+   "tipo": null
+  },
+  {
+   "nombre": "Quero",
+   "provincia": "Tungurahua",
+   "tipo": null
+  },
+  {
+   "nombre": "Quevedo",
+   "provincia": "Los Ríos",
+   "tipo": null
+  },
+  {
+   "nombre": "Quijos",
+   "provincia": "Napo",
+   "tipo": null
+  },
+  {
+   "nombre": "Quilanga",
+   "provincia": "Loja",
+   "tipo": null
+  },
+  {
+   "nombre": "Quinindé",
+   "provincia": "Esmeraldas",
+   "tipo": null
+  },
+  {
+   "nombre": "Quinsaloma",
+   "provincia": "Los Ríos",
+   "tipo": null
+  },
+  {
+   "nombre": "Quito",
+   "provincia": "Pichincha",
+   "tipo": null
+  },
+  {
+   "nombre": "Riobamba",
+   "provincia": "Chimborazo",
+   "tipo": null
+  },
+  {
+   "nombre": "Rioverde",
+   "provincia": "Esmeraldas",
+   "tipo": null
+  },
+  {
+   "nombre": "Rocafuerte",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "Rumiñahui",
+   "provincia": "Pichincha",
+   "tipo": null
+  },
+  {
+   "nombre": "Salcedo",
+   "provincia": "Cotopaxi",
+   "tipo": null
+  },
+  {
+   "nombre": "Salinas",
+   "provincia": "Santa Elena",
+   "tipo": null
+  },
+  {
+   "nombre": "Salitre",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Samborondón",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "San Cristóbal",
+   "provincia": "Galápagos",
+   "tipo": null
+  },
+  {
+   "nombre": "San Fernando",
+   "provincia": "Azuay",
+   "tipo": null
+  },
+  {
+   "nombre": "San Juan Bosco",
+   "provincia": "Morona Santiago",
+   "tipo": null
+  },
+  {
+   "nombre": "San Lorenzo",
+   "provincia": "Esmeraldas",
+   "tipo": null
+  },
+  {
+   "nombre": "San Miguel",
+   "provincia": "Bolívar",
+   "tipo": null
+  },
+  {
+   "nombre": "San Miguel de los Bancos",
+   "provincia": "Pichincha",
+   "tipo": null
+  },
+  {
+   "nombre": "San Pedro de Huaca",
+   "provincia": "Carchi",
+   "tipo": null
+  },
+  {
+   "nombre": "San Vicente",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "Santa Ana",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "Santa Clara",
+   "provincia": "Pastaza",
+   "tipo": null
+  },
+  {
+   "nombre": "Santa Cruz",
+   "provincia": "Galápagos",
+   "tipo": null
+  },
+  {
+   "nombre": "Santa Elena",
+   "provincia": "Santa Elena",
+   "tipo": null
+  },
+  {
+   "nombre": "Santa Isabel",
+   "provincia": "Azuay",
+   "tipo": null
+  },
+  {
+   "nombre": "Santa Lucía",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Santa Rosa",
+   "provincia": "El Oro",
+   "tipo": null
+  },
+  {
+   "nombre": "Santiago",
+   "provincia": "Morona Santiago",
+   "tipo": null
+  },
+  {
+   "nombre": "Santo Domingo",
+   "provincia": "Santo Domingo de los Tsáchilas",
+   "tipo": null
+  },
+  {
+   "nombre": "Saquisilí",
+   "provincia": "Cotopaxi",
+   "tipo": null
+  },
+  {
+   "nombre": "Saraguro",
+   "provincia": "Loja",
+   "tipo": null
+  },
+  {
+   "nombre": "Sevilla de Oro",
+   "provincia": "Azuay",
+   "tipo": null
+  },
+  {
+   "nombre": "Shushufindi",
+   "provincia": "Sucumbíos",
+   "tipo": null
+  },
+  {
+   "nombre": "Sigchos",
+   "provincia": "Cotopaxi",
+   "tipo": null
+  },
+  {
+   "nombre": "Sígsig",
+   "provincia": "Azuay",
+   "tipo": null
+  },
+  {
+   "nombre": "Simón Bolívar",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Sozoranga",
+   "provincia": "Loja",
+   "tipo": null
+  },
+  {
+   "nombre": "Sucre",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "Sucúa",
+   "provincia": "Morona Santiago",
+   "tipo": null
+  },
+  {
+   "nombre": "Sucumbíos",
+   "provincia": "Sucumbíos",
+   "tipo": null
+  },
+  {
+   "nombre": "Suscal",
+   "provincia": "Cañar",
+   "tipo": null
+  },
+  {
+   "nombre": "Taisha",
+   "provincia": "Morona Santiago",
+   "tipo": null
+  },
+  {
+   "nombre": "Tena",
+   "provincia": "Napo",
+   "tipo": null
+  },
+  {
+   "nombre": "Tisaleo",
+   "provincia": "Tungurahua",
+   "tipo": null
+  },
+  {
+   "nombre": "Tiwintza",
+   "provincia": "Morona Santiago",
+   "tipo": null
+  },
+  {
+   "nombre": "Tosagua",
+   "provincia": "Manabí",
+   "tipo": null
+  },
+  {
+   "nombre": "Tulcán",
+   "provincia": "Carchi",
+   "tipo": null
+  },
+  {
+   "nombre": "Urcuquí",
+   "provincia": "Imbabura",
+   "tipo": null
+  },
+  {
+   "nombre": "Urdaneta",
+   "provincia": "Los Ríos",
+   "tipo": null
+  },
+  {
+   "nombre": "Valencia",
+   "provincia": "Los Ríos",
+   "tipo": null
+  },
+  {
+   "nombre": "Ventanas",
+   "provincia": "Los Ríos",
+   "tipo": null
+  },
+  {
+   "nombre": "Vinces",
+   "provincia": "Los Ríos",
+   "tipo": null
+  },
+  {
+   "nombre": "Yacuambi",
+   "provincia": "Zamora Chinchipe",
+   "tipo": null
+  },
+  {
+   "nombre": "Yaguachi",
+   "provincia": "Guayas",
+   "tipo": null
+  },
+  {
+   "nombre": "Yantzaza",
+   "provincia": "Zamora Chinchipe",
+   "tipo": null
+  },
+  {
+   "nombre": "Zamora",
+   "provincia": "Zamora Chinchipe",
+   "tipo": null
+  },
+  {
+   "nombre": "Zapotillo",
+   "provincia": "Loja",
+   "tipo": null
+  },
+  {
+   "nombre": "Zaruma",
+   "provincia": "El Oro",
+   "tipo": null
+  }
+ ],
+ "eventos": [
+  {
+   "nombre": "Inundaciones fluviales",
+   "subcategoria": "1. Inundaciones",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Inundaciones pluviales",
+   "subcategoria": "1. Inundaciones",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Inundaciones costeras",
+   "subcategoria": "1. Inundaciones",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Inundaciones por desbordamiento de lagunas",
+   "subcategoria": "1. Inundaciones",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Inundaciones por represamiento natural",
+   "subcategoria": "1. Inundaciones",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Deslizamientos de suelo",
+   "subcategoria": "2. Movimientos en masa inducidos por lluvia",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Deslizamientos rotacionales",
+   "subcategoria": "2. Movimientos en masa inducidos por lluvia",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Deslizamientos traslacionales",
+   "subcategoria": "2. Movimientos en masa inducidos por lluvia",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Derrumbes",
+   "subcategoria": "2. Movimientos en masa inducidos por lluvia",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Caída de rocas",
+   "subcategoria": "2. Movimientos en masa inducidos por lluvia",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Flujos de lodo",
+   "subcategoria": "2. Movimientos en masa inducidos por lluvia",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Flujos de escombros",
+   "subcategoria": "2. Movimientos en masa inducidos por lluvia",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Avalanchas de lodo",
+   "subcategoria": "2. Movimientos en masa inducidos por lluvia",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Reptación de suelos",
+   "subcategoria": "2. Movimientos en masa inducidos por lluvia",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Lluvias torrenciales",
+   "subcategoria": "3. Eventos asociados a precipitaciones intensas",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Precipitaciones extremas",
+   "subcategoria": "3. Eventos asociados a precipitaciones intensas",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Granizadas",
+   "subcategoria": "3. Eventos asociados a precipitaciones intensas",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Tormentas eléctricas",
+   "subcategoria": "3. Eventos asociados a precipitaciones intensas",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Vendavales",
+   "subcategoria": "3. Eventos asociados a precipitaciones intensas",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Turbonadas",
+   "subcategoria": "3. Eventos asociados a precipitaciones intensas",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Sequías meteorológicas",
+   "subcategoria": "4. Eventos relacionados con déficit hídrico",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Sequías agrícolas",
+   "subcategoria": "4. Eventos relacionados con déficit hídrico",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Sequías hidrológicas",
+   "subcategoria": "4. Eventos relacionados con déficit hídrico",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Oleajes anómalos",
+   "subcategoria": "5. Eventos costeros y marinos",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Marejadas",
+   "subcategoria": "5. Eventos costeros y marinos",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Erosión costera",
+   "subcategoria": "5. Eventos costeros y marinos",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Intrusión salina",
+   "subcategoria": "5. Eventos costeros y marinos",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Ascenso temporal del nivel del mar",
+   "subcategoria": "5. Eventos costeros y marinos",
+   "categoria": "I. Eventos hidrometeorológicos"
+  },
+  {
+   "nombre": "Episodios cálidos del fenómeno El Niño",
+   "subcategoria": "6. Fenómenos macroclimáticos",
+   "categoria": "II. Eventos climáticos asociados a la variabilidad climática"
+  },
+  {
+   "nombre": "Episodios fríos del fenómeno La Niña",
+   "subcategoria": "6. Fenómenos macroclimáticos",
+   "categoria": "II. Eventos climáticos asociados a la variabilidad climática"
+  },
+  {
+   "nombre": "Oscilación del Sur (ENSO)",
+   "subcategoria": "6. Fenómenos macroclimáticos",
+   "categoria": "II. Eventos climáticos asociados a la variabilidad climática"
+  },
+  {
+   "nombre": "Olas de calor",
+   "subcategoria": "7. Temperaturas extremas",
+   "categoria": "II. Eventos climáticos asociados a la variabilidad climática"
+  },
+  {
+   "nombre": "Olas de frío",
+   "subcategoria": "7. Temperaturas extremas",
+   "categoria": "II. Eventos climáticos asociados a la variabilidad climática"
+  },
+  {
+   "nombre": "Heladas",
+   "subcategoria": "7. Temperaturas extremas",
+   "categoria": "II. Eventos climáticos asociados a la variabilidad climática"
+  },
+  {
+   "nombre": "Sismos",
+   "subcategoria": "8. Sismos",
+   "categoria": "III. Eventos geológicos frecuentes en Ecuador"
+  },
+  {
+   "nombre": "Caída de ceniza",
+   "subcategoria": "9. Erupciones volcánicas",
+   "categoria": "III. Eventos geológicos frecuentes en Ecuador"
+  },
+  {
+   "nombre": "Flujos piroclásticos",
+   "subcategoria": "9. Erupciones volcánicas",
+   "categoria": "III. Eventos geológicos frecuentes en Ecuador"
+  },
+  {
+   "nombre": "Lahares",
+   "subcategoria": "9. Erupciones volcánicas",
+   "categoria": "III. Eventos geológicos frecuentes en Ecuador"
+  },
+  {
+   "nombre": "Emisión de gases volcánicos",
+   "subcategoria": "9. Erupciones volcánicas",
+   "categoria": "III. Eventos geológicos frecuentes en Ecuador"
+  },
+  {
+   "nombre": "Tsunamis",
+   "subcategoria": "10. Tsunamis",
+   "categoria": "III. Eventos geológicos frecuentes en Ecuador"
+  },
+  {
+   "nombre": "Incendios forestales",
+   "subcategoria": "11. Incendios",
+   "categoria": "IV. Eventos antrópicos y tecnológicos"
+  },
+  {
+   "nombre": "Incendios estructurales",
+   "subcategoria": "11. Incendios",
+   "categoria": "IV. Eventos antrópicos y tecnológicos"
+  },
+  {
+   "nombre": "Incendios industriales",
+   "subcategoria": "11. Incendios",
+   "categoria": "IV. Eventos antrópicos y tecnológicos"
+  },
+  {
+   "nombre": "Derrames de hidrocarburos",
+   "subcategoria": "12. Accidentes tecnológicos",
+   "categoria": "IV. Eventos antrópicos y tecnológicos"
+  },
+  {
+   "nombre": "Liberación de sustancias químicas peligrosas",
+   "subcategoria": "12. Accidentes tecnológicos",
+   "categoria": "IV. Eventos antrópicos y tecnológicos"
+  },
+  {
+   "nombre": "Explosiones industriales",
+   "subcategoria": "12. Accidentes tecnológicos",
+   "categoria": "IV. Eventos antrópicos y tecnológicos"
+  }
+ ],
+ "ambato": {
+  "respuestas": {
+   "P1.1": 1,
+   "P1.2": 3,
+   "P1.3": 1,
+   "P1.4": 3,
+   "P1.5": 3,
+   "P2.1": 1,
+   "P2.2": 3,
+   "P2.3": 1,
+   "P2.4": 3,
+   "P2.5": 3,
+   "P3.1": 1,
+   "P3.2": 3,
+   "P3.3": 1,
+   "P3.4": 3,
+   "P3.5": 3,
+   "P4.1": 1,
+   "P4.2": 3,
+   "P4.3": 1,
+   "P4.4": 3,
+   "P4.5": 3,
+   "P5.1": 1,
+   "P5.2": 3,
+   "P5.3": 1,
+   "P5.4": 3,
+   "P5.5": 3,
+   "P6.1": 1,
+   "P6.2": 3,
+   "P6.3": 1,
+   "P6.4": 3,
+   "P6.5": 3,
+   "P7.1": 1,
+   "P7.2": 3,
+   "P7.3": 1,
+   "P7.4": 3,
+   "P7.5": 3,
+   "P8.1": 1,
+   "P8.2": 3,
+   "P8.3": 1,
+   "P8.4": 3,
+   "P8.5": 3,
+   "P9.1": 1,
+   "P9.2": 3,
+   "P9.3": 1,
+   "P9.4": 3,
+   "P9.5": 3,
+   "P10.1": 1,
+   "P10.2": 3,
+   "P10.3": 1,
+   "P10.4": 3,
+   "P10.5": 3,
+   "P11.1": 1,
+   "P11.2": 3,
+   "P11.3": 1,
+   "P11.4": 3,
+   "P11.5": 3,
+   "P12.1": 1,
+   "P12.2": 3,
+   "P12.3": 1,
+   "P12.4": 3,
+   "P12.5": 3,
+   "P13.1": 1,
+   "P13.2": 3,
+   "P13.3": 1,
+   "P13.4": 3,
+   "P13.5": 3,
+   "P14.1": 1,
+   "P14.2": 3,
+   "P14.3": 1,
+   "P14.4": 3,
+   "P14.5": 3,
+   "P15.1": 1,
+   "P15.2": 3,
+   "P15.3": 1,
+   "P15.4": 3,
+   "P15.5": 3,
+   "P16.1": 1,
+   "P16.2": 3,
+   "P16.3": 1,
+   "P16.4": 3,
+   "P16.5": 3,
+   "P17.1": 1,
+   "P17.2": 3,
+   "P17.3": 1,
+   "P17.4": 3,
+   "P17.5": 3,
+   "P18.1": 1,
+   "P18.2": 3,
+   "P18.3": 1,
+   "P18.4": 3,
+   "P18.5": 3,
+   "P19.1": 1,
+   "P19.2": 3,
+   "P19.3": 1,
+   "P19.4": 3,
+   "P19.5": 3,
+   "P20.1": 1,
+   "P20.2": 3,
+   "P20.3": 1,
+   "P20.4": 3,
+   "P20.5": 3,
+   "P21.1": 1,
+   "P21.2": 3,
+   "P21.3": 1,
+   "P21.4": 3,
+   "P21.5": 3,
+   "P22.1": 1,
+   "P22.2": 3,
+   "P22.3": 1,
+   "P22.4": 3,
+   "P22.5": 3,
+   "P23.1": 1,
+   "P23.2": 3,
+   "P23.3": 1,
+   "P23.4": 3,
+   "P23.5": 3,
+   "P24.1": 1,
+   "P24.2": 3,
+   "P24.3": 1,
+   "P24.4": 3,
+   "P24.5": 3,
+   "P25.1": 1,
+   "P25.2": 3,
+   "P25.3": 1,
+   "P25.4": 3,
+   "P25.5": 3,
+   "P26.1": 1,
+   "P26.2": 3,
+   "P26.3": 1,
+   "P26.4": 3,
+   "P26.5": 3,
+   "P27.1": 1,
+   "P27.2": 3,
+   "P27.3": 1,
+   "P27.4": 3,
+   "P27.5": 3,
+   "P28.1": 1,
+   "P28.2": 3,
+   "P28.3": 1,
+   "P28.4": 3,
+   "P28.5": 3,
+   "P29.1": 1,
+   "P29.2": 3,
+   "P29.3": 1,
+   "P29.4": 3,
+   "P29.5": 3,
+   "P30.1": 1,
+   "P30.2": 3,
+   "P30.3": 1,
+   "P30.4": 3,
+   "P30.5": 3,
+   "P31.1": 1,
+   "P31.2": 3,
+   "P31.3": 1,
+   "P31.4": 3,
+   "P31.5": 3,
+   "P32.1": 1,
+   "P32.2": 3,
+   "P32.3": 1,
+   "P32.4": 3,
+   "P32.5": 3,
+   "P33.1": 1,
+   "P33.2": 3,
+   "P33.3": 1,
+   "P33.4": 3,
+   "P33.5": 3,
+   "P34.1": 1,
+   "P34.2": 3,
+   "P34.3": 1,
+   "P34.4": 3,
+   "P34.5": 3,
+   "P35.1": 1,
+   "P35.2": 3,
+   "P35.3": 1,
+   "P35.4": 3,
+   "P35.5": 3,
+   "P36.1": 1,
+   "P36.2": 3,
+   "P36.3": 1,
+   "P36.4": 3,
+   "P36.5": 3,
+   "P37.1": 1,
+   "P37.2": 3,
+   "P37.3": 1,
+   "P37.4": 3,
+   "P37.5": 3,
+   "P38.1": 1,
+   "P38.2": 3,
+   "P38.3": 1,
+   "P38.4": 3,
+   "P38.5": 3,
+   "P39.1": 1,
+   "P39.2": 3,
+   "P39.3": 1,
+   "P39.4": 3,
+   "P39.5": 3,
+   "P40.1": 1,
+   "P40.2": 3,
+   "P40.3": 1,
+   "P40.4": 3,
+   "P40.5": 3,
+   "P41.1": 1,
+   "P41.2": 3,
+   "P41.3": 1,
+   "P41.4": 3,
+   "P41.5": 3,
+   "P42.1": 1,
+   "P42.2": 3,
+   "P42.3": 1,
+   "P42.4": 3,
+   "P42.5": 3,
+   "P43.1": 1,
+   "P43.2": 3,
+   "P43.3": 1,
+   "P43.4": 3,
+   "P43.5": 3,
+   "P44.1": 1,
+   "P44.2": 3,
+   "P44.3": 1,
+   "P44.4": 3,
+   "P44.5": 3,
+   "P45.1": 1,
+   "P45.2": 3,
+   "P45.3": 1,
+   "P45.4": 3,
+   "P45.5": 3,
+   "P46.1": 1,
+   "P46.2": 3,
+   "P46.3": 1,
+   "P46.4": 3,
+   "P46.5": 3,
+   "P47.1": 1,
+   "P47.2": 3,
+   "P47.3": 1,
+   "P47.4": 3,
+   "P47.5": 3,
+   "P48.1": 1,
+   "P48.2": 3,
+   "P48.3": 1,
+   "P48.4": 3,
+   "P48.5": 3,
+   "P49.1": 1,
+   "P49.2": 3,
+   "P49.3": 1,
+   "P49.4": 3,
+   "P49.5": 3,
+   "P50.1": 1,
+   "P50.2": 3,
+   "P50.3": 1,
+   "P50.4": 3,
+   "P50.5": 3,
+   "P51.1": 1,
+   "P51.2": 3,
+   "P51.3": 1,
+   "P51.4": 3,
+   "P51.5": 3,
+   "P52.1": 1,
+   "P52.2": 3,
+   "P52.3": 1,
+   "P52.4": 3,
+   "P52.5": 3,
+   "P53.1": 1,
+   "P53.2": 3,
+   "P53.3": 1,
+   "P53.4": 3,
+   "P53.5": 3,
+   "P54.1": 1,
+   "P54.2": 3,
+   "P54.3": 1,
+   "P54.4": 3,
+   "P54.5": 3,
+   "P55.1": 1,
+   "P55.2": 3,
+   "P55.3": 1,
+   "P55.4": 3,
+   "P55.5": 3
+  },
+  "eventos": [
+   {
+    "eventoNombre": "Inundaciones fluviales",
+    "cantidad": 13,
+    "amenaza": 4,
+    "vulnerabilidad": 3,
+    "exposicion": 5,
+    "mitigacion": 4
+   },
+   {
+    "eventoNombre": "Deslizamientos de suelo",
+    "cantidad": 40,
+    "amenaza": 9,
+    "vulnerabilidad": 8,
+    "exposicion": 10,
+    "mitigacion": 1
+   }
+  ],
+  "idmEsperado": 0.22,
+  "ctiEsperado": 1.0188301886792455,
+  "idmAjustadoEsperado": 0.224142641509434
+ }
+}
