@@ -28,16 +28,16 @@ export default function CrearUsuarioForm({ cantones }: { cantones: { id: string;
   return (
     <form action={action} className="space-y-3">
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-        <Input name="nombre" placeholder="Nombre completo" required />
-        <Input name="email" type="email" placeholder="Correo" required />
-        <PasswordInput name="password" placeholder="Contraseña (mín. 8)" required minLength={8} />
-        <select name="rol" className={selectCls} value={rol} onChange={(e) => setRol(e.target.value)}>
+        <Input name="nombre" aria-label="Nombre completo" placeholder="Nombre completo" required />
+        <Input name="email" type="email" aria-label="Correo electrónico" placeholder="Correo" required />
+        <PasswordInput name="password" aria-label="Contraseña" placeholder="Contraseña (mín. 8)" required minLength={8} />
+        <select name="rol" aria-label="Rol" className={selectCls} value={rol} onChange={(e) => setRol(e.target.value)}>
           <option value="TECNICO_MUNICIPAL">Técnico municipal</option>
           <option value="CONSULTOR">Consultor</option>
           <option value="INVESTIGADOR">Investigador</option>
           <option value="ADMIN">Administrador</option>
         </select>
-        <select name="cantonId" className={`${selectCls} lg:col-span-2`} disabled={!necesitaCanton} defaultValue="">
+        <select name="cantonId" aria-label="Cantón" className={`${selectCls} lg:col-span-2`} disabled={!necesitaCanton} defaultValue="">
           <option value="">{necesitaCanton ? "— Selecciona cantón —" : "— No aplica —"}</option>
           {cantones.map((c) => (
             <option key={c.id} value={c.id}>

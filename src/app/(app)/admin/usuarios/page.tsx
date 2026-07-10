@@ -129,7 +129,12 @@ export default async function AdminUsuariosPage() {
                 <TableCell>
                   <form action={actualizarUsuario} className="flex flex-wrap items-center gap-2">
                     <input type="hidden" name="id" value={u.id} />
-                    <select name="rol" defaultValue={u.rol} className={`${selectCls} w-44`}>
+                    <select
+                      name="rol"
+                      defaultValue={u.rol}
+                      aria-label={`Rol de ${u.nombre}`}
+                      className={`${selectCls} w-44`}
+                    >
                       {ROLES.map((r) => (
                         <option key={r.v} value={r.v}>
                           {r.l}
@@ -139,6 +144,7 @@ export default async function AdminUsuariosPage() {
                     <select
                       name="cantonId"
                       defaultValue={u.cantonId ?? ""}
+                      aria-label={`Cantón de ${u.nombre}`}
                       className={`${selectCls} w-60`}
                     >
                       <option value="">— Sin cantón —</option>
