@@ -23,7 +23,7 @@ export function AuthShell({
           }}
         />
         <div className="relative">
-          <PuceLogo size={48} />
+          <PuceLogo height={34} />
         </div>
         <div className="relative space-y-5">
           <Logo className="h-12 w-12" />

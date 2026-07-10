@@ -15,7 +15,7 @@ export default function LandingPage() {
       {/* Header */}
       <header className="bg-brand-navy text-brand-navy-foreground">
         <div className="mx-auto flex w-full max-w-5xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
-          <PuceLogo size={40} />
+          <PuceLogo height={28} />
           <nav className="flex items-center gap-2 sm:gap-3">
             <Link
               href="/login"

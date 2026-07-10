@@ -33,7 +33,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
       {/* Franja institucional PUCE */}
       <div className="bg-brand-navy text-brand-navy-foreground">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-2">
-          <PuceLogo size={32} />
+          <PuceLogo height={20} />
           <span className="hidden text-xs text-white/60 sm:block">
             Gestión Integral del Riesgo de Desastres
           </span>
