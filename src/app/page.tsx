@@ -1,6 +1,5 @@
 import Link from "next/link";
 import {
-  ShieldCheck,
   ClipboardList,
   Calculator,
   BarChart3,
@@ -8,15 +7,15 @@ import {
   UserPlus,
 } from "lucide-react";
 import { Logo } from "@/components/brand";
-import { GobEcuador } from "@/components/gob-brand";
+import { PuceLogo } from "@/components/puce-brand";
 
 export default function LandingPage() {
   return (
     <main className="flex min-h-screen flex-col bg-background">
       {/* Header */}
       <header className="bg-brand-navy text-brand-navy-foreground">
-        <div className="mx-auto flex w-full max-w-5xl items-center justify-between gap-4 px-4 py-3.5 sm:px-6">
-          <GobEcuador />
+        <div className="mx-auto flex w-full max-w-5xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
+          <PuceLogo size={40} />
           <nav className="flex items-center gap-2 sm:gap-3">
             <Link
               href="/login"
@@ -45,11 +44,7 @@ export default function LandingPage() {
         />
         <div className="relative mx-auto w-full max-w-5xl px-4 py-20 text-center sm:px-6 sm:py-28">
           <div className="mx-auto max-w-2xl">
-            <span className="inline-flex items-center gap-2 rounded-full border border-primary/25 bg-accent px-3 py-1 text-xs font-semibold uppercase tracking-wide text-accent-foreground">
-              <ShieldCheck className="h-3.5 w-3.5" />
-              Plataforma GIRD
-            </span>
-            <h1 className="mt-6 text-4xl font-bold leading-[1.1] tracking-tight text-foreground sm:text-5xl">
+            <h1 className="text-4xl font-bold leading-[1.1] tracking-tight text-foreground sm:text-5xl">
               Autoevaluación del riesgo de desastres para los municipios del Ecuador
             </h1>
             <p className="mx-auto mt-5 max-w-xl text-lg leading-relaxed text-muted-foreground">

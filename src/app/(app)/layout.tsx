@@ -4,7 +4,7 @@ import { LogOut } from "lucide-react";
 import { obtenerSesion } from "@/lib/auth";
 import { logout } from "@/lib/actions/auth";
 import { Wordmark } from "@/components/brand";
-import { GobEcuador } from "@/components/gob-brand";
+import { PuceLogo } from "@/components/puce-brand";
 import { MainNav } from "@/components/main-nav";
 import { UserMenu } from "@/components/user-menu";
 
@@ -30,12 +30,12 @@ export default async function AppLayout({ children }: { children: React.ReactNod
 
   return (
     <div className="flex min-h-screen flex-col">
-      {/* Franja de gobierno */}
+      {/* Franja institucional PUCE */}
       <div className="bg-brand-navy text-brand-navy-foreground">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-2">
-          <GobEcuador />
+          <PuceLogo size={32} />
           <span className="hidden text-xs text-white/60 sm:block">
-            República del Ecuador
+            Gestión Integral del Riesgo de Desastres
           </span>
         </div>
       </div>
