@@ -6,6 +6,7 @@ import { CheckCircle2, AlertCircle } from "lucide-react";
 import { crearUsuarioAdmin, type AdminState } from "@/lib/actions/admin";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { PasswordInput } from "@/components/ui/password-input";
 
 const selectCls =
   "border-input focus-visible:border-primary focus-visible:ring-primary/20 h-9 rounded-md border bg-transparent px-3 py-1 text-sm shadow-xs outline-none focus-visible:ring-[3px]";
@@ -29,7 +30,7 @@ export default function CrearUsuarioForm({ cantones }: { cantones: { id: string;
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         <Input name="nombre" placeholder="Nombre completo" required />
         <Input name="email" type="email" placeholder="Correo" required />
-        <Input name="password" type="password" placeholder="Contraseña (mín. 8)" required minLength={8} />
+        <PasswordInput name="password" placeholder="Contraseña (mín. 8)" required minLength={8} />
         <select name="rol" className={selectCls} value={rol} onChange={(e) => setRol(e.target.value)}>
           <option value="TECNICO_MUNICIPAL">Técnico municipal</option>
           <option value="CONSULTOR">Consultor</option>

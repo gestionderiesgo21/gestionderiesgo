@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 
-/** Marca institucional de la plataforma: isotipo (triángulo de alerta) + wordmark. */
+/** Marca institucional de la plataforma: isotipo (escudo de protección) + wordmark. */
 export function Logo({ className }: { className?: string }) {
   return (
     <svg
@@ -11,11 +11,17 @@ export function Logo({ className }: { className?: string }) {
     >
       <rect width="40" height="40" rx="9" fill="var(--brand-orange)" />
       <path
-        d="M20 9.5c.62 0 1.19.33 1.5.86l9.1 15.77c.63 1.1-.16 2.47-1.43 2.47H10.83c-1.27 0-2.06-1.37-1.43-2.47l9.1-15.77c.31-.53.88-.86 1.5-.86Z"
+        d="M20 8.2l9.2 3.3v7c0 5.8-3.9 10.4-9.2 12-5.3-1.6-9.2-6.2-9.2-12v-7z"
         fill="#fff"
       />
-      <rect x="18.6" y="16.4" width="2.8" height="6.6" rx="1.4" fill="var(--brand-orange)" />
-      <circle cx="20" cy="25.6" r="1.6" fill="var(--brand-orange)" />
+      <path
+        d="M15.6 19.9l3.1 3.1 5.7-6.5"
+        fill="none"
+        stroke="var(--brand-orange)"
+        strokeWidth="2.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 }

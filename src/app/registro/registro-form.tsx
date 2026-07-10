@@ -6,6 +6,7 @@ import { Loader2, AlertCircle, Info } from "lucide-react";
 import { registro, type FormState } from "@/lib/actions/auth";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { PasswordInput } from "@/components/ui/password-input";
 import { Label } from "@/components/ui/label";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 
@@ -47,10 +48,9 @@ export default function RegistroForm({ cantones }: { cantones: CantonOpt[] }) {
       </div>
       <div className="space-y-2">
         <Label htmlFor="password">Contraseña</Label>
-        <Input
+        <PasswordInput
           id="password"
           name="password"
-          type="password"
           required
           minLength={8}
           placeholder="Mínimo 8 caracteres"

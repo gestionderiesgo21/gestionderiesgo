@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
+import { LogOut } from "lucide-react";
 import { obtenerSesion } from "@/lib/auth";
+import { logout } from "@/lib/actions/auth";
 import { Wordmark } from "@/components/brand";
 import { GobEcuador } from "@/components/gob-brand";
 import { MainNav } from "@/components/main-nav";
@@ -47,7 +49,18 @@ export default async function AppLayout({ children }: { children: React.ReactNod
             </Link>
             <MainNav items={items} />
           </div>
-          <UserMenu nombre={sesion.nombre} rolLabel={ROL_LABEL[sesion.rol]} />
+          <div className="flex items-center gap-2 sm:gap-3">
+            <UserMenu nombre={sesion.nombre} rolLabel={ROL_LABEL[sesion.rol]} />
+            <form action={logout}>
+              <button
+                type="submit"
+                className="inline-flex items-center gap-1.5 rounded-md border border-input px-3 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+              >
+                <LogOut className="h-4 w-4" />
+                <span className="hidden sm:inline">Salir</span>
+              </button>
+            </form>
+          </div>
         </div>
       </header>
 
