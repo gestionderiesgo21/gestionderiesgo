@@ -8,9 +8,33 @@ import {
 } from "lucide-react";
 import { BrandLockup } from "@/components/puce-brand";
 
+const features = [
+  {
+    icono: ClipboardList,
+    titulo: "Cuestionario guiado",
+    texto: "275 preguntas en 9 componentes, respondidas por pasos.",
+    tono: "navy" as const,
+  },
+  {
+    icono: Calculator,
+    titulo: "Índice IDM automático",
+    texto: "Cálculo del IDM-GIRD sin hojas de cálculo ni errores manuales.",
+    tono: "sky" as const,
+  },
+  {
+    icono: BarChart3,
+    titulo: "Panel de resultados",
+    texto: "Compara tu municipio a nivel nacional y exporta a Excel.",
+    tono: "navy" as const,
+  },
+];
+
 export default function LandingPage() {
   return (
     <main className="flex min-h-screen flex-col bg-background">
+      {/* Línea de acento institucional */}
+      <div className="h-1 w-full bg-gradient-to-r from-brand-navy via-brand-sky to-brand-navy" />
+
       {/* Header */}
       <header className="sticky top-0 z-30 border-b border-border bg-card/80 shadow-sm backdrop-blur-md">
         <div className="mx-auto flex w-full max-w-5xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
@@ -34,11 +58,14 @@ export default function LandingPage() {
 
       {/* Hero */}
       <section className="relative flex flex-1 items-center overflow-hidden">
+        {/* Textura de puntos */}
+        <div className="dot-grid pointer-events-none absolute inset-0 opacity-[0.35] [mask-image:radial-gradient(ellipse_at_center,black,transparent_75%)]" />
+        {/* Glows suaves navy + celeste */}
         <div
-          className="pointer-events-none absolute inset-0 opacity-60"
+          className="pointer-events-none absolute inset-0"
           style={{
             backgroundImage:
-              "radial-gradient(circle at 20% 20%, color-mix(in oklch, var(--brand-orange) 12%, transparent) 0, transparent 45%), radial-gradient(circle at 85% 10%, color-mix(in oklch, var(--brand-navy) 9%, transparent) 0, transparent 42%)",
+              "radial-gradient(ellipse 60% 50% at 15% 10%, color-mix(in oklch, var(--brand-navy) 13%, transparent) 0, transparent 60%), radial-gradient(ellipse 50% 45% at 88% 15%, color-mix(in oklch, var(--brand-sky) 16%, transparent) 0, transparent 55%)",
           }}
         />
         <div className="relative mx-auto w-full max-w-5xl px-4 py-20 text-center sm:px-6 sm:py-28">
@@ -68,25 +95,32 @@ export default function LandingPage() {
                 Regístrate
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
 
-            {/* Trío compacto de qué hace */}
-            <div className="mx-auto mt-16 grid max-w-3xl gap-6 sm:grid-cols-3">
-              {[
-                { icono: ClipboardList, texto: "Cuestionario guiado por componentes" },
-                { icono: Calculator, texto: "Cálculo automático del índice IDM" },
-                { icono: BarChart3, texto: "Panel de resultados y comparación" },
-              ].map((f) => (
+      {/* Franja de features (tinte + tarjetas con profundidad) */}
+      <section className="relative border-y border-border bg-secondary/50">
+        <div className="mx-auto w-full max-w-5xl px-4 py-14 sm:px-6">
+          <div className="grid gap-5 sm:grid-cols-3">
+            {features.map((f) => (
+              <div
+                key={f.titulo}
+                className="group rounded-2xl border border-border bg-card p-6 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-md"
+              >
                 <div
-                  key={f.texto}
-                  className="group flex flex-col items-center gap-2"
+                  className={`flex h-12 w-12 items-center justify-center rounded-xl shadow-sm transition-transform duration-200 group-hover:scale-105 ${
+                    f.tono === "sky"
+                      ? "bg-brand-sky-soft text-brand-sky"
+                      : "bg-accent text-primary"
+                  }`}
                 >
-                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-accent text-primary shadow-sm transition-all duration-200 group-hover:-translate-y-1 group-hover:shadow-md">
-                    <f.icono className="h-6 w-6" />
-                  </div>
-                  <p className="text-sm text-muted-foreground">{f.texto}</p>
+                  <f.icono className="h-6 w-6" />
                 </div>
-              ))}
-            </div>
+                <h3 className="mt-4 text-base font-semibold text-foreground">{f.titulo}</h3>
+                <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">{f.texto}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

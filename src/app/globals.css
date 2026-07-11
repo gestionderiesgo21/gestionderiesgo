@@ -10,8 +10,8 @@
 :root {
   --radius: 0.5rem;
 
-  /* Base institucional — claro, limpio, tipo portal de gobierno */
-  --background: oklch(0.985 0.002 90);
+  /* Base institucional — claro, limpio, con un tinte azulado muy sutil */
+  --background: oklch(0.984 0.004 254);
   --foreground: oklch(0.2 0.02 255);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.2 0.02 255);
@@ -40,6 +40,9 @@
   --brand-navy: oklch(0.31 0.06 252);
   --brand-navy-foreground: oklch(0.98 0.005 90);
   --brand-orange: oklch(0.63 0.19 41);
+  /* Celeste del compás PUCE — acento secundario para íconos y detalles */
+  --brand-sky: oklch(0.66 0.13 233);
+  --brand-sky-soft: oklch(0.95 0.03 233);
 
   /* Paleta categórica para gráficos (Recharts) — accesible en claro */
   --chart-1: oklch(0.63 0.19 41);   /* naranja */
@@ -81,6 +84,8 @@
   --color-brand-navy: var(--brand-navy);
   --color-brand-navy-foreground: var(--brand-navy-foreground);
   --color-brand-orange: var(--brand-orange);
+  --color-brand-sky: var(--brand-sky);
+  --color-brand-sky-soft: var(--brand-sky-soft);
 
   --color-chart-1: var(--chart-1);
   --color-chart-2: var(--chart-2);
@@ -149,6 +154,23 @@
   }
   .badge {
     @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+  }
+}
+
+/* Texturas sutiles para dar vida a los fondos sin recargar. */
+@layer utilities {
+  .dot-grid {
+    background-image: radial-gradient(
+      color-mix(in oklch, var(--brand-navy) 55%, transparent) 1px,
+      transparent 1.6px
+    );
+    background-size: 22px 22px;
+  }
+  .grid-lines {
+    background-image:
+      linear-gradient(to right, color-mix(in oklch, var(--brand-navy) 40%, transparent) 1px, transparent 1px),
+      linear-gradient(to bottom, color-mix(in oklch, var(--brand-navy) 40%, transparent) 1px, transparent 1px);
+    background-size: 48px 48px;
   }
 }
 

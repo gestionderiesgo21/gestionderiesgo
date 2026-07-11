@@ -13,9 +13,18 @@ export function AuthShell({
 }) {
   return (
     <main className="grid min-h-screen lg:grid-cols-2">
-      <aside className="relative hidden flex-col justify-between bg-brand-navy p-10 text-brand-navy-foreground lg:flex">
+      <aside className="relative hidden flex-col justify-between overflow-hidden bg-brand-navy p-10 text-brand-navy-foreground lg:flex">
+        {/* Glow celeste (compás PUCE) para profundidad */}
         <div
-          className="pointer-events-none absolute inset-0 opacity-[0.07]"
+          className="pointer-events-none absolute inset-0"
+          style={{
+            backgroundImage:
+              "radial-gradient(ellipse 70% 50% at 15% 0%, color-mix(in oklch, var(--brand-sky) 30%, transparent), transparent 60%), radial-gradient(ellipse 60% 50% at 100% 100%, color-mix(in oklch, var(--brand-navy) 60%, black 25%), transparent 55%)",
+          }}
+        />
+        {/* Textura de puntos */}
+        <div
+          className="pointer-events-none absolute inset-0 opacity-[0.09]"
           style={{
             backgroundImage: "radial-gradient(circle at 20% 20%, #fff 1px, transparent 1px)",
             backgroundSize: "22px 22px",
