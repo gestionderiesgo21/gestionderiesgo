@@ -3,7 +3,7 @@ import { redirect } from "next/navigation";
 import { LogOut } from "lucide-react";
 import { obtenerSesion } from "@/lib/auth";
 import { logout } from "@/lib/actions/auth";
-import { PuceLogo } from "@/components/puce-brand";
+import { BrandLockup } from "@/components/puce-brand";
 import { MainNav } from "@/components/main-nav";
 import { UserMenu } from "@/components/user-menu";
 
@@ -39,8 +39,8 @@ export default async function AppLayout({ children }: { children: React.ReactNod
       <header className="sticky top-0 z-30 border-b border-border bg-card/80 shadow-sm backdrop-blur-md">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
           <div className="flex items-center gap-4 sm:gap-5">
-            <Link href="/dashboard" className="transition-opacity hover:opacity-80">
-              <PuceLogo height={26} plate={false} />
+            <Link href="/dashboard" className="rounded-md transition-opacity hover:opacity-80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">
+              <BrandLockup logoHeight={24} />
             </Link>
             <span className="hidden h-6 w-px bg-border sm:block" />
             <MainNav items={items} />

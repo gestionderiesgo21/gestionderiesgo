@@ -38,3 +38,42 @@ export function PuceLogo({
     </span>
   );
 }
+
+/**
+ * Lockup de marca: logo PUCE (institución) + nombre del producto "Gestión de
+ * Riesgos", separados por una línea. Así se lee como plataforma de gestión de
+ * riesgo asociada a la PUCE, no como una página de la PUCE.
+ * - `onDark`: sobre fondo azul marino (login/registro) usa placa blanca y texto claro.
+ */
+export function BrandLockup({
+  onDark = false,
+  logoHeight = 30,
+  className,
+}: {
+  onDark?: boolean;
+  logoHeight?: number;
+  className?: string;
+}) {
+  return (
+    <div className={cn("flex items-center gap-3", className)}>
+      <PuceLogo height={logoHeight} plate={onDark} />
+      <span
+        className={cn("h-8 w-px shrink-0", onDark ? "bg-white/25" : "bg-border")}
+        aria-hidden
+      />
+      <div className="leading-tight">
+        <div
+          className={cn(
+            "text-sm font-semibold tracking-tight",
+            onDark ? "text-white" : "text-foreground"
+          )}
+        >
+          Gestión de Riesgos
+        </div>
+        <div className={cn("text-xs", onDark ? "text-white/60" : "text-muted-foreground")}>
+          Autoevaluación GIRD
+        </div>
+      </div>
+    </div>
+  );
+}

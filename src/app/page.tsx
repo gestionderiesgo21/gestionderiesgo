@@ -6,8 +6,7 @@ import {
   LogIn,
   UserPlus,
 } from "lucide-react";
-import { Logo } from "@/components/brand";
-import { PuceLogo } from "@/components/puce-brand";
+import { BrandLockup } from "@/components/puce-brand";
 
 export default function LandingPage() {
   return (
@@ -15,7 +14,7 @@ export default function LandingPage() {
       {/* Header */}
       <header className="sticky top-0 z-30 border-b border-border bg-card/80 shadow-sm backdrop-blur-md">
         <div className="mx-auto flex w-full max-w-5xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
-          <PuceLogo height={30} plate={false} />
+          <BrandLockup logoHeight={26} />
           <nav className="flex items-center gap-1 sm:gap-2">
             <Link
               href="/login"
@@ -95,13 +94,7 @@ export default function LandingPage() {
       {/* Footer */}
       <footer className="border-t border-border bg-brand-navy text-brand-navy-foreground">
         <div className="mx-auto flex w-full max-w-5xl flex-col items-start justify-between gap-4 px-4 py-6 sm:flex-row sm:items-center sm:px-6">
-          <div className="flex items-center gap-3">
-            <Logo className="h-8 w-8" />
-            <div className="text-sm">
-              <div className="font-semibold">Gestión de Riesgos</div>
-              <div className="text-white/60">Autoevaluación Municipal · GIRD</div>
-            </div>
-          </div>
+          <BrandLockup onDark logoHeight={24} />
           <div className="flex items-center gap-5 text-sm">
             <Link href="/login" className="text-white/80 transition-colors hover:text-white">
               Iniciar sesión

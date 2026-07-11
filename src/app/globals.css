@@ -18,8 +18,8 @@
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.2 0.02 255);
 
-  /* Primario: naranja institucional SGR (~#E8531B) */
-  --primary: oklch(0.63 0.19 41);
+  /* Primario: azul marino institucional */
+  --primary: oklch(0.34 0.07 254);
   --primary-foreground: oklch(0.99 0 0);
 
   /* Secundario/acento neutros */
@@ -27,14 +27,14 @@
   --secondary-foreground: oklch(0.25 0.02 255);
   --muted: oklch(0.965 0.003 90);
   --muted-foreground: oklch(0.52 0.02 255);
-  --accent: oklch(0.955 0.02 55);
-  --accent-foreground: oklch(0.3 0.05 41);
+  --accent: oklch(0.955 0.018 254);
+  --accent-foreground: oklch(0.34 0.07 254);
 
   --destructive: oklch(0.577 0.245 27.325);
 
   --border: oklch(0.9 0.005 255);
   --input: oklch(0.9 0.005 255);
-  --ring: oklch(0.63 0.19 41);
+  --ring: oklch(0.34 0.07 254);
 
   /* Marca — azul marino para header/footer y contraste serio */
   --brand-navy: oklch(0.31 0.06 252);

@@ -1,6 +1,5 @@
 import { ShieldCheck } from "lucide-react";
-import { Logo, Wordmark } from "@/components/brand";
-import { PuceLogo } from "@/components/puce-brand";
+import { BrandLockup } from "@/components/puce-brand";
 
 /** Layout dividido para páginas de acceso: panel institucional (marino) + contenido. */
 export function AuthShell({
@@ -23,10 +22,9 @@ export function AuthShell({
           }}
         />
         <div className="relative">
-          <PuceLogo height={34} />
+          <BrandLockup onDark logoHeight={30} />
         </div>
         <div className="relative space-y-5">
-          <Logo className="h-12 w-12" />
           <h1 className="max-w-md text-3xl font-semibold leading-tight tracking-tight">
             Plataforma de Gestión Integral del Riesgo de Desastres
           </h1>
@@ -44,7 +42,7 @@ export function AuthShell({
       <section className="flex flex-col items-center justify-center px-4 py-10">
         <div className="w-full max-w-sm">
           <div className="mb-8 lg:hidden">
-            <Wordmark />
+            <BrandLockup logoHeight={26} />
           </div>
           <div className="mb-6">
             <h2 className="text-2xl font-semibold tracking-tight">{title}</h2>
