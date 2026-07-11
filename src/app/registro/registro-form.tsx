@@ -34,7 +34,7 @@ export default function RegistroForm({ cantones }: { cantones: CantonOpt[] }) {
     <form action={formAction} className="space-y-4">
       <div className="space-y-2">
         <Label htmlFor="nombre">Nombre completo</Label>
-        <Input id="nombre" name="nombre" required placeholder="Nombres y apellidos" />
+        <Input id="nombre" name="nombre" required autoComplete="name" placeholder="Nombres y apellidos" />
       </div>
       <div className="space-y-2">
         <Label htmlFor="email">Correo electrónico</Label>
@@ -43,6 +43,7 @@ export default function RegistroForm({ cantones }: { cantones: CantonOpt[] }) {
           name="email"
           type="email"
           required
+          autoComplete="email"
           placeholder="tu.correo@gadm.gob.ec"
         />
       </div>
@@ -53,6 +54,7 @@ export default function RegistroForm({ cantones }: { cantones: CantonOpt[] }) {
           name="password"
           required
           minLength={8}
+          autoComplete="new-password"
           placeholder="Mínimo 8 caracteres"
         />
       </div>

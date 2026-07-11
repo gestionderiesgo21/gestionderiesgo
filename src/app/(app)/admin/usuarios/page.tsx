@@ -2,6 +2,7 @@ import { UserCheck, UserCog, Clock } from "lucide-react";
 import { prisma } from "@/lib/prisma";
 import { actualizarUsuario, aprobarUsuario } from "@/lib/actions/admin";
 import CrearUsuarioForm from "./crear-form";
+import { GuardarUsuarioBtn } from "./guardar-btn";
 import {
   Card,
   CardContent,
@@ -157,9 +158,7 @@ export default async function AdminUsuariosPage() {
                     <label className="flex items-center gap-1.5 text-sm text-muted-foreground">
                       <input type="checkbox" name="activo" defaultChecked={u.activo} /> Activo
                     </label>
-                    <Button type="submit" variant="secondary" size="sm">
-                      Guardar
-                    </Button>
+                    <GuardarUsuarioBtn />
                   </form>
                 </TableCell>
               </TableRow>

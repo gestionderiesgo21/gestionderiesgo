@@ -2,12 +2,15 @@
 
 import type { Heatmap as HeatmapData } from "@/lib/panel";
 
-// Color por valor 1..3 (rojo → ámbar → verde), interpolando el matiz.
+// Escala secuencial de un solo tono (navy): claro = menor, oscuro = mayor.
+// Apta para daltónicos (no depende de rojo/verde) y el valor numérico va en la celda.
 function color(v: number | undefined) {
   if (v === undefined) return { bg: "var(--muted)", fg: "var(--muted-foreground)" };
-  const t = Math.max(0, Math.min(1, (v - 1) / 2));
-  const hue = t * 120; // 0=rojo, 120=verde
-  return { bg: `hsl(${hue} 65% 42%)`, fg: "#fff" };
+  const t = Math.max(0, Math.min(1, (v - 1) / 2)); // 0..1
+  const L = 0.93 - t * 0.59; // claro (0.93) → navy oscuro (0.34)
+  const C = 0.03 + t * 0.08;
+  const fg = L < 0.6 ? "#fff" : "oklch(0.32 0.07 254)";
+  return { bg: `oklch(${L} ${C} 254)`, fg };
 }
 
 export function Heatmap({ data }: { data: HeatmapData }) {
@@ -63,12 +66,20 @@ export function Heatmap({ data }: { data: HeatmapData }) {
           </tbody>
         </table>
       </div>
-      {/* Leyenda */}
-      <div className="flex items-center gap-2 text-xs text-muted-foreground">
+      {/* Leyenda con escala numérica */}
+      <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
         <span>Menor (brecha)</span>
-        <div className="h-3 w-40 rounded" style={{ background: "linear-gradient(90deg, hsl(0 65% 42%), hsl(60 65% 42%), hsl(120 65% 42%))" }} />
+        <div className="relative h-3 w-40 rounded" style={{ background: "linear-gradient(90deg, oklch(0.93 0.03 254), oklch(0.635 0.07 254), oklch(0.34 0.11 254))" }} />
         <span>Mayor (capacidad)</span>
+        <span className="ml-1 flex items-center gap-2 tabular-nums text-muted-foreground/80">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+        </span>
       </div>
+      <p className="text-xs text-muted-foreground/70">
+        El valor exacto (1–3) se muestra en cada celda y al pasar el cursor.
+      </p>
     </div>
   );
 }
